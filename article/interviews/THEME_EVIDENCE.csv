@@ -1,0 +1,8 @@
+theme_id,theme,code,participant_code,evidence_type,quote_or_observation,interpretation,confidence,follow_up
+T01,Fragmented city,DATA_FRAGMENTATION,,,,
+T02,The address problem,ADDRESS_AMBIGUITY,,,,
+T03,Assets without registers,ASSET_RECORD,,,,
+T04,Nobody owns the data,OWNERSHIP,,,,
+T05,Capacity and fear,CAPACITY,,,,
+T06,The public map question,PUBLICATION,,,,
+T07,First steps,PRIORITY,,,,

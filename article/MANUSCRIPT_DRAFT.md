@@ -4,7 +4,7 @@
 **Working manuscript draft — not for submission**
 **Case:** Rajshahi City Corporation (RCC)
 **Method:** Design science research, scoping review, embedded case study
-**Target:** *Habitat International* (primary); *Cities*; *Land Use Policy*; *Information Technology for Development*
+**Target:** *Transactions in GIS*
 
 > **Note to co-authors:** This is a design-phase manuscript. It reports the proposed artifact and the documentary/technical analysis, not completed interviews. Sections marked `[empirical phase]` should be completed after RCC interviews and expert review. Budget figures, ward-level statistics, and quotations must be verified before submission.
 
@@ -200,7 +200,7 @@ AND ("local government" OR municipality OR "public sector")
 RCC is the embedded case. Data collection for the empirical phase:
 
 - **Documents:** ward maps, holding-tax registers, engineering drawings, annual budgets, organograms, service records, project documents.
-- **Interviews:** 8–12 key informants across ICT, engineering, revenue, conservancy, town planning, ward offices, and partner agencies. Semi-structured, 45–60 minutes, anonymised.
+- **Interviews:** 12–15 key informants across ICT, engineering, revenue, conservancy, town planning, ward offices, partner agencies, and public users. Semi-structured, 45–60 minutes, anonymised. The protocol and response templates are provided in the supplementary interview package.
 - **Observation:** how paper maps and Excel files are used in daily work; where data are duplicated; where handovers fail.
 - **Technical artifact:** the geodatabase schema, data dictionary, validation rules, and prototype workflows.
 - **Expert review:** a small panel of GIS professionals, urban planners, and municipal practitioners.
@@ -570,3 +570,6 @@ Key sources cited in this draft:
 - Appendix E: Implementation roadmap — see `IMPLEMENTATION_ROADMAP.md`.
 - Appendix F: Figure specifications — see `FIGURE_SPECS.md`.
 - Appendix G: Literature matrix — see `LITERATURE_MATRIX.csv`.
+- Appendix H: Interview guide — see `interviews/INTERVIEW_GUIDE.md`.
+- Appendix I: Question bank — see `interviews/QUESTION_BANK.csv`.
+- Appendix J: Coding frame — see `interviews/CODING_FRAME.md`.

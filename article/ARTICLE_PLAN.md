@@ -6,8 +6,8 @@
 **Method:** Design science research + scoping review + embedded single-case study
 **Target length:** 8,000–9,000 words (excluding references and appendices)
 **Citation style:** APA 7
-**Primary target:** *Habitat International*
-**Alternative targets:** *Cities*; *Land Use Policy*; *Information Technology for Development*; *Government Information Quarterly*
+**Primary target:** *Transactions in GIS*
+**Alternative targets:** *Cities*; *Habitat International*; *International Journal of Geographical Information Science*; *Government Information Quarterly*
 
 ---
 
@@ -182,7 +182,7 @@ AND ("local government" OR municipality OR "public sector")
 RCC is the embedded case. Data collection:
 
 - **Documents:** ward maps, holding-tax registers, engineering drawings, annual budgets, organograms, service records, project documents.
-- **Interviews:** 8–12 key informants across ICT, engineering, revenue, conservancy, town planning, ward offices, and partner agencies. Semi-structured, 45–60 minutes, anonymised.
+- **Interviews:** 12–15 key informants across ICT, engineering, revenue, conservancy, town planning, ward offices, partner agencies, and public users. Semi-structured, 45–60 minutes, anonymised. The protocol is in `interviews/INTERVIEW_GUIDE.md`.
 - **Observation:** how paper maps and Excel files are used in daily work; where data are duplicated; where handovers fail.
 - **Technical artifact:** the geodatabase schema, data dictionary, validation rules, and prototype workflows.
 - **Expert review:** a small panel of GIS professionals, urban planners, and municipal practitioners.
@@ -459,16 +459,16 @@ This article addresses that gap.
 
 | Journal | Fit | Notes |
 |---|---|---|
-| *Habitat International* | Urban planning/development in the Global South | Strong fit; case-based and policy-relevant |
+| *Transactions in GIS* | GIScience, spatial data infrastructure, databases, interoperability, GIS and society | **Primary target**; strongest fit for the data model, schema, SDI, and reproducibility contribution |
 | *Cities* | Urban policy, governance, planning | Broad international reach |
-| *Land Use Policy* | Land, cadastre, planning, governance | Good if the parcel/address dimension is foregrounded |
-| *Information Technology for Development* | ICT4D, e-government, capacity | Good if the governance/capacity argument is foregrounded |
-| *Government Information Quarterly* | Digital government, public value, data governance | Good if the data-governance contribution is strongest |
-| *Transactions in GIS* | GIScience, SDI, data models | Good if the technical artifact is foregrounded |
+| *Habitat International* | Urban planning/development in the Global South | Strong fit for the planning and policy dimension |
+| *International Journal of Geographical Information Science* | GIScience theory and methods | More demanding theoretically; requires a sharper GIScience contribution |
+| *Government Information Quarterly* | Digital government, public value, data governance | Good if the governance contribution is foregrounded |
+| *Transactions in GIS* technical note | Shorter, schema-focused paper | Possible if the article is trimmed to the data model and reproducibility artifact |
 | *Journal of Bangladesh Institute of Planners* | Local planning audience | Good for policy uptake in Bangladesh |
 
-**Primary recommendation:** *Habitat International*.
-**Fallback:** *Cities*, then *Information Technology for Development*.
+**Primary recommendation:** *Transactions in GIS*.
+**Fallback:** *Cities*, then *Habitat International*.
 
 ---
 

@@ -6,7 +6,7 @@ Working materials for:
 
 Case: Rajshahi City Corporation (RCC)
 Method: scoping review + embedded case study + design science research
-Target: *Habitat International* (primary); *Cities*; *Land Use Policy*; *Information Technology for Development*
+Target: *Transactions in GIS* (primary); *Cities*; *Habitat International*; *International Journal of Geographical Information Science*
 
 ---
 
@@ -15,6 +15,7 @@ Target: *Habitat International* (primary); *Cities*; *Land Use Policy*; *Informa
 | File | Purpose |
 |---|---|
 | `ARTICLE_PLAN.md` | Full article plan: abstract, research questions, theory, method, structure, figures, timeline |
+| `JOURNAL_FIT_TRANSACTIONS_IN_GIS.md` | Journal fit, framing, data availability, reviewer concerns |
 | `LITERATURE_MATRIX.csv` | 70-source literature matrix with themes, arguments, benefits, complexities, solutions, relevance |
 | `LITERATURE_REVIEW_DRAFT.md` | Draft literature review (~2,700 words) |
 | `REFERENCES_APA.md` | Working APA 7 reference list generated from Crossref metadata |
@@ -26,7 +27,8 @@ Target: *Habitat International* (primary); *Cities*; *Land Use Policy*; *Informa
 | `ERD.md` | Relational design, cardinalities, key decisions |
 | `GOVERNANCE_FRAMEWORK.md` | Principles, roles, RACI, policies, processes, maturity, financing, KPIs |
 | `IMPLEMENTATION_ROADMAP.md` | Phases, decision gates, risks, costs, KPIs |
-| `MANUSCRIPT_DRAFT.md` | Working full draft (~6,800 words) |
+| `MANUSCRIPT_DRAFT.md` | Working full draft (~6,900 words) |
+| `interviews/` | Interview guide, question bank, consent script, response templates, coding frame |
 
 ---
 
@@ -44,7 +46,9 @@ Completed:
 - governance framework;
 - implementation roadmap;
 - figure specifications;
-- working manuscript draft.
+- working manuscript draft;
+- interview guide and response templates;
+- journal-fit note for *Transactions in GIS*.
 
 Still needed:
 

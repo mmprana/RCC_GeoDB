@@ -1,0 +1,41 @@
+question_id,module,primary_audience,question,probes,rq,priority
+Q01,A. Role,All,"Please describe your role and how long you have been in this department.","Department; responsibilities; duration; main tasks",RQ2/RQ3,Core
+Q02,A. Role,All,"Walk me through a typical week. Where do you use maps, addresses, registers, drawings, or spatial information?","Examples; frequency; tools; people",RQ2,Core
+Q03,A. Role,All,"Which decisions in your work depend on knowing where something is?","Recent example; consequence of wrong location",RQ2/RQ4,Core
+Q04,B. Data practices,All,"What spatial information do you use most often?","Maps; holding registers; engineering drawings; Excel; GIS; field notes",RQ2,Core
+Q05,B. Data practices,All,"Where is that information kept?","Paper; Excel; CAD; GIS; shared drive; personal folder",RQ2,Core
+Q06,B. Data practices,All,"Who owns it? Who updates it? Who else can change it?","Formal owner; de facto owner; update frequency",RQ3,Core
+Q07,B. Data practices,All,"Think of a recent case — a drainage complaint, a waste problem, a holding-tax issue, or a building permit. Walk me through what happened step by step.","First contact; information needed; where found; who involved; delay",RQ2/RQ4,Core
+Q08,B. Data practices,All,"What documents, forms, or systems did you use in that case?","Paper; Excel; CAD; GIS; phone; WhatsApp",RQ2,Core
+Q09,B. Data practices,All,"How did you know the information was correct? What did you do when it was wrong or missing?","Verification; field check; correction; escalation",RQ2/RQ3,Core
+Q10,B. Data practices,All,"How do you share information with other departments or agencies? What works? What fails?","Files; printouts; messaging; shared drive; duplication; conflict",RQ3,Core
+Q11,C. Addresses,All,"How are addresses recorded in your work? What makes an address easy or difficult to find?","Holding number; road; block; section; mahalla; landmark",RQ2,Core
+Q12,C. Addresses,Revenue,"How do you link a holding or tax record to a building or parcel?","Matching; manual search; field visit; disputes",RQ2/RQ4,Core
+Q13,C. Assets,Engineering/Waste/Parks,"How do you record assets such as drains, manholes, bins, streetlights, parks, or public facilities?","Register; map; notebook; Excel; asset ID",RQ2,Core
+Q14,C. Assets,Engineering/Waste,"When an asset is repaired, replaced, or newly built, how does that information reach the record?","As-built; handover; update lag; responsibility",RQ2/RQ3,Core
+Q15,C. Field data,Field staff,"How do you capture field data?","Paper; mobile; GPS; photos; WhatsApp; Excel",RQ2,Core
+Q16,C. As-built,Engineering,"What happens to as-built drawings and contractor data after a project is completed?","Recipient; georeferencing; asset ID; storage",RQ2/RQ3,Core
+Q17,D. Quality,All,"What spatial data are most unreliable or incomplete?","Example; frequency; impact",RQ2,Core
+Q18,D. Quality,Field/Revenue/Engineering,"What do you do when the official record does not match what you see on the ground?","Correction; informal note; escalation",RQ2/RQ3,Core
+Q19,D. Quality,All,"How do you resolve duplicate or conflicting records?","Manual check; seniority; field visit; no resolution",RQ2/RQ3,Core
+Q20,D. Workarounds,All,"What informal workarounds do you and your colleagues use?","Personal Excel; notebook; WhatsApp; memory",RQ2/RQ3,Core
+Q21,D. Trust,All,"What would make the data more trustworthy?","Verification; source; date; accountability",RQ3,Core
+Q22,E. Technology,All,"What software and devices do you use? What works well? What does not?","Excel; QGIS; CAD; phone; internet; electricity",RQ2/RQ3,Core
+Q23,E. Capacity,All,"Have you received training in GIS, Excel, or data management? What training would help?","Past training; confidence; needs",RQ3,Core
+Q24,E. Support,All,"Who do you ask when you have a data or software problem?","IT; colleague; vendor; no one",RQ3,Core
+Q25,E. Change,All,"What would be the biggest challenge for staff in using a shared geodatabase?","Time; skills; language; fear; workload",RQ3,Core
+Q26,F. Ownership,Senior/All,"Who should own a city-wide spatial database? Who should maintain it?","GIS unit; department; CEO; shared",RQ3,Core
+Q27,F. Access,Senior/All,"How should decisions be made about who can see or publish data?","Approval; roles; legal; political",RQ3,Core
+Q28,F. Publication,Senior/All,"What data should be public? What should remain internal or restricted?","Examples; reasons",RQ3/RQ4,Core
+Q29,F. Privacy,Senior/GIS/Revenue,"How should the system handle personal, tax, or complaint data?","Access; aggregation; retention",RQ3,Core
+Q30,F. Cooperation,Senior/All,"What would make departments cooperate — or refuse to cooperate?","Mandate; budget; incentives; trust; past failures",RQ3,Core
+Q31,G. Public,Public/All,"How do citizens currently get information about services, roads, waste, drains, parks, or facilities?","Ward office; phone; website; Facebook; word of mouth",RQ4,Core
+Q32,G. Public,Public/All,"What do citizens ask for most often?","Roads; waste; drains; taxes; facilities",RQ4,Core
+Q33,G. Public,All,"If RCC published a public map, what would be most useful? What would be risky?","Useful layers; privacy; misuse",RQ4,Core
+Q34,G. Access,All,"How should the system support Bangla language, low literacy, and low-bandwidth access?","Language; mobile; offline; voice",RQ4,Core
+Q35,G. Trust,Public/All,"What would make citizens trust the map?","Accuracy; date; source; correction; privacy",RQ4,Core
+Q36,H. Priorities,All,"If you could have one map or one data layer tomorrow, what would it be?","Layer; use; user",RQ5,Core
+Q37,H. Sequencing,All,"What should be done first, second, and third?","Pilot; quick wins; dependencies",RQ5,Core
+Q38,H. Risks,All,"What would make this system fail?","Capacity; politics; funding; data; trust",RQ5,Core
+Q39,H. Success,All,"What would success look like in two years? How would you measure it?","Outcomes; KPIs; users",RQ5,Core
+Q40,H. Open,All,"Is there anything I should have asked but did not?","Open",RQ1-RQ5,Core

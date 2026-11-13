@@ -1,6 +1,6 @@
 # Submission Checklist
 
-Use this before submitting to *Habitat International*, *Cities*, *Land Use Policy*, or *Information Technology for Development*. Always check the current author guidelines.
+Use this before submitting to *Transactions in GIS*, *Cities*, *Habitat International*, or *International Journal of Geographical Information Science*. Always check the current author guidelines.
 
 ## Argument and framing
 
