@@ -1,0 +1,399 @@
+﻿domain,field_type,domain_type,code,description
+dom_yes_no,SHORT,CODED,1,Yes
+dom_yes_no,SHORT,CODED,0,No
+dom_ward,TEXT,CODED,01,Ward 01
+dom_ward,TEXT,CODED,02,Ward 02
+dom_ward,TEXT,CODED,03,Ward 03
+dom_ward,TEXT,CODED,04,Ward 04
+dom_ward,TEXT,CODED,05,Ward 05
+dom_ward,TEXT,CODED,06,Ward 06
+dom_ward,TEXT,CODED,07,Ward 07
+dom_ward,TEXT,CODED,08,Ward 08
+dom_ward,TEXT,CODED,09,Ward 09
+dom_ward,TEXT,CODED,10,Ward 10
+dom_ward,TEXT,CODED,11,Ward 11
+dom_ward,TEXT,CODED,12,Ward 12
+dom_ward,TEXT,CODED,13,Ward 13
+dom_ward,TEXT,CODED,14,Ward 14
+dom_ward,TEXT,CODED,15,Ward 15
+dom_ward,TEXT,CODED,16,Ward 16
+dom_ward,TEXT,CODED,17,Ward 17
+dom_ward,TEXT,CODED,18,Ward 18
+dom_ward,TEXT,CODED,19,Ward 19
+dom_ward,TEXT,CODED,20,Ward 20
+dom_ward,TEXT,CODED,21,Ward 21
+dom_ward,TEXT,CODED,22,Ward 22
+dom_ward,TEXT,CODED,23,Ward 23
+dom_ward,TEXT,CODED,24,Ward 24
+dom_ward,TEXT,CODED,25,Ward 25
+dom_ward,TEXT,CODED,26,Ward 26
+dom_ward,TEXT,CODED,27,Ward 27
+dom_ward,TEXT,CODED,28,Ward 28
+dom_ward,TEXT,CODED,29,Ward 29
+dom_ward,TEXT,CODED,30,Ward 30
+dom_status,TEXT,CODED,planned,Planned
+dom_status,TEXT,CODED,design,Design
+dom_status,TEXT,CODED,under_construction,Under construction
+dom_status,TEXT,CODED,operational,Operational
+dom_status,TEXT,CODED,maintenance,Under maintenance
+dom_status,TEXT,CODED,decommissioned,Decommissioned
+dom_status,TEXT,CODED,unknown,Unknown
+dom_condition,SHORT,CODED,0,Unknown
+dom_condition,SHORT,CODED,1,Very poor
+dom_condition,SHORT,CODED,2,Poor
+dom_condition,SHORT,CODED,3,Fair
+dom_condition,SHORT,CODED,4,Good
+dom_condition,SHORT,CODED,5,Excellent
+dom_criticality,SHORT,CODED,1,Low
+dom_criticality,SHORT,CODED,2,Moderate
+dom_criticality,SHORT,CODED,3,High
+dom_criticality,SHORT,CODED,4,Very high
+dom_criticality,SHORT,CODED,5,Critical
+dom_priority,SHORT,CODED,1,Low
+dom_priority,SHORT,CODED,2,Medium
+dom_priority,SHORT,CODED,3,High
+dom_priority,SHORT,CODED,4,Urgent
+dom_priority,SHORT,CODED,5,Emergency
+dom_owner_org,TEXT,CODED,RCC,Rajshahi City Corporation
+dom_owner_org,TEXT,CODED,RWASA,Rajshahi WASA
+dom_owner_org,TEXT,CODED,LGED,LGED
+dom_owner_org,TEXT,CODED,RHD,Roads and Highways Department
+dom_owner_org,TEXT,CODED,BBA,Bangladesh Bridge Authority
+dom_owner_org,TEXT,CODED,DPHE,DPHE
+dom_owner_org,TEXT,CODED,PRIVATE,Private
+dom_owner_org,TEXT,CODED,COMMUNITY,Community
+dom_owner_org,TEXT,CODED,OTHER,Other
+dom_asset_class,TEXT,CODED,WATER,Water
+dom_asset_class,TEXT,CODED,SEWER,Sewer
+dom_asset_class,TEXT,CODED,DRAIN,Drainage
+dom_asset_class,TEXT,CODED,WASTE,Waste
+dom_asset_class,TEXT,CODED,TRANSPORT,Transport
+dom_asset_class,TEXT,CODED,PARK,Park
+dom_asset_class,TEXT,CODED,FACILITY,Facility
+dom_asset_class,TEXT,CODED,BUILDING,Building
+dom_asset_class,TEXT,CODED,OTHER,Other
+dom_source,TEXT,CODED,DGPS,DGPS
+dom_source,TEXT,CODED,GNSS,GNSS
+dom_source,TEXT,CODED,TOTAL_STATION,Total station
+dom_source,TEXT,CODED,UAV,UAV / drone
+dom_source,TEXT,CODED,MOBILE_GPS,Mobile GPS
+dom_source,TEXT,CODED,ORTHO,Digitised orthophoto
+dom_source,TEXT,CODED,CAD,CAD as-built
+dom_source,TEXT,CODED,PAPER,Paper map
+dom_source,TEXT,CODED,FIELD,Field sketch
+dom_source,TEXT,CODED,THIRD_PARTY,Third party
+dom_source,TEXT,CODED,UNKNOWN,Unknown
+dom_capture_method,TEXT,CODED,SURVEY,Survey
+dom_capture_method,TEXT,CODED,GNSS,GNSS
+dom_capture_method,TEXT,CODED,TOTAL_STATION,Total station
+dom_capture_method,TEXT,CODED,UAV,UAV
+dom_capture_method,TEXT,CODED,DIGITISED,Digitised
+dom_capture_method,TEXT,CODED,CAD,CAD
+dom_capture_method,TEXT,CODED,PAPER,Paper
+dom_capture_method,TEXT,CODED,FIELD,Field
+dom_capture_method,TEXT,CODED,THIRD_PARTY,Third party
+dom_capture_method,TEXT,CODED,UNKNOWN,Unknown
+dom_qa_status,TEXT,CODED,pending,Pending
+dom_qa_status,TEXT,CODED,passed,Passed
+dom_qa_status,TEXT,CODED,failed,Failed
+dom_qa_status,TEXT,CODED,not_checked,Not checked
+dom_maintenance,TEXT,CODED,RCC,RCC
+dom_maintenance,TEXT,CODED,CONTRACTOR,Contractor
+dom_maintenance,TEXT,CODED,COMMUNITY,Community
+dom_maintenance,TEXT,CODED,PRIVATE,Private
+dom_maintenance,TEXT,CODED,NONE,None
+dom_road_class,TEXT,CODED,NATIONAL,National highway
+dom_road_class,TEXT,CODED,REGIONAL,Regional road
+dom_road_class,TEXT,CODED,ZILA,Zila road
+dom_road_class,TEXT,CODED,CITY_PRIMARY,City primary
+dom_road_class,TEXT,CODED,CITY_SECONDARY,City secondary
+dom_road_class,TEXT,CODED,COLLECTOR,Collector
+dom_road_class,TEXT,CODED,LOCAL,Local
+dom_road_class,TEXT,CODED,LANE,Lane
+dom_road_class,TEXT,CODED,SERVICE,Service
+dom_road_class,TEXT,CODED,PEDESTRIAN,Pedestrian
+dom_surface,TEXT,CODED,ASPHALT,Asphalt
+dom_surface,TEXT,CODED,CONCRETE,Concrete
+dom_surface,TEXT,CODED,BRICK,Brick
+dom_surface,TEXT,CODED,PAVER,Paver
+dom_surface,TEXT,CODED,GRAVEL,Gravel
+dom_surface,TEXT,CODED,EARTHEN,Earthen
+dom_surface,TEXT,CODED,OTHER,Other
+dom_land_use,TEXT,CODED,RESIDENTIAL,Residential
+dom_land_use,TEXT,CODED,COMMERCIAL,Commercial
+dom_land_use,TEXT,CODED,MIXED,Mixed
+dom_land_use,TEXT,CODED,INDUSTRIAL,Industrial
+dom_land_use,TEXT,CODED,INSTITUTIONAL,Institutional
+dom_land_use,TEXT,CODED,OPEN_SPACE,Open space
+dom_land_use,TEXT,CODED,RECREATION,Recreation
+dom_land_use,TEXT,CODED,WATER,Water
+dom_land_use,TEXT,CODED,TRANSPORT,Transport
+dom_land_use,TEXT,CODED,UTILITY,Utility
+dom_land_use,TEXT,CODED,VACANT,Vacant
+dom_land_use,TEXT,CODED,AGRICULTURAL,Agricultural
+dom_land_use,TEXT,CODED,SLUM,Slum / low-income
+dom_land_use,TEXT,CODED,OTHER,Other
+dom_tenure,TEXT,CODED,PRIVATE,Private
+dom_tenure,TEXT,CODED,GOVERNMENT,Government
+dom_tenure,TEXT,CODED,KHAS,Khas
+dom_tenure,TEXT,CODED,WAQF,Waqf
+dom_tenure,TEXT,CODED,LEASE,Lease
+dom_tenure,TEXT,CODED,TRUST,Trust
+dom_tenure,TEXT,CODED,DISPUTED,Disputed
+dom_tenure,TEXT,CODED,UNKNOWN,Unknown
+dom_owner_type,TEXT,CODED,PRIVATE,Private
+dom_owner_type,TEXT,CODED,GOVT,Government
+dom_owner_type,TEXT,CODED,KHAS,Khas
+dom_owner_type,TEXT,CODED,WAQF,Waqf
+dom_owner_type,TEXT,CODED,TRUST,Trust
+dom_owner_type,TEXT,CODED,DISPUTED,Disputed
+dom_owner_type,TEXT,CODED,UNKNOWN,Unknown
+dom_survey_type,TEXT,CODED,CS,CS
+dom_survey_type,TEXT,CODED,SA,SA
+dom_survey_type,TEXT,CODED,RS,RS
+dom_survey_type,TEXT,CODED,BS,BS
+dom_survey_type,TEXT,CODED,CITY,City survey
+dom_survey_type,TEXT,CODED,OTHER,Other
+dom_occupancy,TEXT,CODED,RESIDENTIAL,Residential
+dom_occupancy,TEXT,CODED,COMMERCIAL,Commercial
+dom_occupancy,TEXT,CODED,MIXED,Mixed
+dom_occupancy,TEXT,CODED,INSTITUTIONAL,Institutional
+dom_occupancy,TEXT,CODED,INDUSTRIAL,Industrial
+dom_occupancy,TEXT,CODED,VACANT,Vacant
+dom_occupancy,TEXT,CODED,OTHER,Other
+dom_construction,TEXT,CODED,RCC,RCC
+dom_construction,TEXT,CODED,BRICK,Brick
+dom_construction,TEXT,CODED,STEEL,Steel
+dom_construction,TEXT,CODED,TIMBER,Timber
+dom_construction,TEXT,CODED,MUD,Mud
+dom_construction,TEXT,CODED,MIXED,Mixed
+dom_construction,TEXT,CODED,OTHER,Other
+dom_address_status,TEXT,CODED,active,Active
+dom_address_status,TEXT,CODED,inactive,Inactive
+dom_address_status,TEXT,CODED,duplicate,Duplicate
+dom_address_status,TEXT,CODED,unverified,Unverified
+dom_side,TEXT,CODED,LEFT,Left
+dom_side,TEXT,CODED,RIGHT,Right
+dom_side,TEXT,CODED,BOTH,Both
+dom_waste_stream,TEXT,CODED,MIXED,Mixed
+dom_waste_stream,TEXT,CODED,ORGANIC,Organic
+dom_waste_stream,TEXT,CODED,RECYCLABLE,Recyclable
+dom_waste_stream,TEXT,CODED,HAZARDOUS,Hazardous
+dom_waste_stream,TEXT,CODED,CONSTRUCTION,Construction
+dom_waste_stream,TEXT,CODED,E_WASTE,E-waste
+dom_frequency,TEXT,CODED,DAILY,Daily
+dom_frequency,TEXT,CODED,ALTERNATE_DAY,Alternate day
+dom_frequency,TEXT,CODED,TWICE_WEEKLY,Twice weekly
+dom_frequency,TEXT,CODED,WEEKLY,Weekly
+dom_frequency,TEXT,CODED,FORTNIGHTLY,Fortnightly
+dom_frequency,TEXT,CODED,ON_CALL,On call
+dom_material,TEXT,CODED,AC,Asbestos cement
+dom_material,TEXT,CODED,DI,Ductile iron
+dom_material,TEXT,CODED,CI,Cast iron
+dom_material,TEXT,CODED,PVC,PVC
+dom_material,TEXT,CODED,HDPE,HDPE
+dom_material,TEXT,CODED,CONCRETE,Concrete
+dom_material,TEXT,CODED,BRICK,Brick
+dom_material,TEXT,CODED,STEEL,Steel
+dom_material,TEXT,CODED,OTHER,Other
+dom_network_role,TEXT,CODED,TRUNK,Trunk
+dom_network_role,TEXT,CODED,DISTRIBUTION,Distribution
+dom_network_role,TEXT,CODED,SERVICE,Service
+dom_valve_type,TEXT,CODED,GATE,Gate
+dom_valve_type,TEXT,CODED,BUTTERFLY,Butterfly
+dom_valve_type,TEXT,CODED,AIR,Air
+dom_valve_type,TEXT,CODED,PRESSURE_REDUCING,Pressure reducing
+dom_valve_type,TEXT,CODED,OTHER,Other
+dom_valve_status,TEXT,CODED,OPEN,Open
+dom_valve_status,TEXT,CODED,CLOSED,Closed
+dom_valve_status,TEXT,CODED,PARTLY_OPEN,Partly open
+dom_valve_status,TEXT,CODED,UNKNOWN,Unknown
+dom_hydrant_type,TEXT,CODED,PILLAR,Pillar
+dom_hydrant_type,TEXT,CODED,UNDERGROUND,Underground
+dom_hydrant_type,TEXT,CODED,OTHER,Other
+dom_meter_type,TEXT,CODED,MECHANICAL,Mechanical
+dom_meter_type,TEXT,CODED,SMART,Smart
+dom_meter_type,TEXT,CODED,OTHER,Other
+dom_reservoir_type,TEXT,CODED,GROUND,Ground
+dom_reservoir_type,TEXT,CODED,ELEVATED,Elevated
+dom_reservoir_type,TEXT,CODED,UNDERGROUND,Underground
+dom_reservoir_type,TEXT,CODED,OTHER,Other
+dom_pump_type,TEXT,CODED,CENTRIFUGAL,Centrifugal
+dom_pump_type,TEXT,CODED,SUBMERSIBLE,Submersible
+dom_pump_type,TEXT,CODED,AXIAL,Axial
+dom_pump_type,TEXT,CODED,OTHER,Other
+dom_fuel,TEXT,CODED,ELECTRIC,Electric
+dom_fuel,TEXT,CODED,DIESEL,Diesel
+dom_fuel,TEXT,CODED,GAS,Gas
+dom_fuel,TEXT,CODED,SOLAR,Solar
+dom_fuel,TEXT,CODED,OTHER,Other
+dom_sewer_type,TEXT,CODED,GRAVITY,Gravity
+dom_sewer_type,TEXT,CODED,PRESSURE,Pressure
+dom_sewer_type,TEXT,CODED,COMBINED,Combined
+dom_manhole_type,TEXT,CODED,STRAIGHT,Straight
+dom_manhole_type,TEXT,CODED,JUNCTION,Junction
+dom_manhole_type,TEXT,CODED,DROP,Drop
+dom_manhole_type,TEXT,CODED,FLUSH,Flush
+dom_manhole_type,TEXT,CODED,OTHER,Other
+dom_cover_type,TEXT,CODED,RCC,RCC
+dom_cover_type,TEXT,CODED,CI,Cast iron
+dom_cover_type,TEXT,CODED,STEEL,Steel
+dom_cover_type,TEXT,CODED,COMPOSITE,Composite
+dom_cover_type,TEXT,CODED,OTHER,Other
+dom_drain_type,TEXT,CODED,STORM,Storm
+dom_drain_type,TEXT,CODED,FOUL,Foul
+dom_drain_type,TEXT,CODED,COMBINED,Combined
+dom_shape,TEXT,CODED,CIRCULAR,Circular
+dom_shape,TEXT,CODED,RECTANGULAR,Rectangular
+dom_shape,TEXT,CODED,TRAPEZOIDAL,Trapezoidal
+dom_shape,TEXT,CODED,OVAL,Oval
+dom_shape,TEXT,CODED,OTHER,Other
+dom_catchpit_type,TEXT,CODED,ROAD,Road
+dom_catchpit_type,TEXT,CODED,FOOTPATH,Footpath
+dom_catchpit_type,TEXT,CODED,YARD,Yard
+dom_catchpit_type,TEXT,CODED,OTHER,Other
+dom_culvert_type,TEXT,CODED,PIPE,Pipe
+dom_culvert_type,TEXT,CODED,BOX,Box
+dom_culvert_type,TEXT,CODED,ARCH,Arch
+dom_culvert_type,TEXT,CODED,OTHER,Other
+dom_outfall_type,TEXT,CODED,RIVER,River
+dom_outfall_type,TEXT,CODED,CANAL,Canal
+dom_outfall_type,TEXT,CODED,POND,Pond
+dom_outfall_type,TEXT,CODED,OTHER,Other
+dom_gate_type,TEXT,CODED,FLAP,Flap
+dom_gate_type,TEXT,CODED,SLUICE,Sluice
+dom_gate_type,TEXT,CODED,PENSTOCK,Penstock
+dom_gate_type,TEXT,CODED,OTHER,Other
+dom_bin_type,TEXT,CODED,COMMUNAL,Communal
+dom_bin_type,TEXT,CODED,INDIVIDUAL,Individual
+dom_bin_type,TEXT,CODED,SKIP,Skip
+dom_bin_type,TEXT,CODED,SMART,Smart
+dom_location_type,TEXT,CODED,ROADSIDE,Roadside
+dom_location_type,TEXT,CODED,MARKET,Market
+dom_location_type,TEXT,CODED,RESIDENTIAL,Residential
+dom_location_type,TEXT,CODED,SCHOOL,School
+dom_location_type,TEXT,CODED,HOSPITAL,Hospital
+dom_location_type,TEXT,CODED,PARK,Park
+dom_location_type,TEXT,CODED,OTHER,Other
+dom_park_class,TEXT,CODED,REGIONAL,Regional
+dom_park_class,TEXT,CODED,CITY,City
+dom_park_class,TEXT,CODED,NEIGHBOURHOOD,Neighbourhood
+dom_park_class,TEXT,CODED,POCKET,Pocket
+dom_park_class,TEXT,CODED,PLAYGROUND,Playground
+dom_park_class,TEXT,CODED,OTHER,Other
+dom_maintenance_grade,TEXT,CODED,A,A - high
+dom_maintenance_grade,TEXT,CODED,B,B - medium
+dom_maintenance_grade,TEXT,CODED,C,C - low
+dom_health,TEXT,CODED,GOOD,Good
+dom_health,TEXT,CODED,FAIR,Fair
+dom_health,TEXT,CODED,POOR,Poor
+dom_health,TEXT,CODED,DEAD,Dead
+dom_health,TEXT,CODED,UNKNOWN,Unknown
+dom_risk,TEXT,CODED,LOW,Low
+dom_risk,TEXT,CODED,MEDIUM,Medium
+dom_risk,TEXT,CODED,HIGH,High
+dom_risk,TEXT,CODED,CRITICAL,Critical
+dom_facility_type,SHORT,CODED,1,Market
+dom_facility_type,SHORT,CODED,2,Public toilet
+dom_facility_type,SHORT,CODED,3,Community centre
+dom_facility_type,SHORT,CODED,4,School
+dom_facility_type,SHORT,CODED,5,Hospital
+dom_facility_type,SHORT,CODED,6,Mosque
+dom_facility_type,SHORT,CODED,7,Cemetery
+dom_facility_type,SHORT,CODED,8,Cyclone shelter
+dom_facility_type,SHORT,CODED,9,Other
+dom_zone_type,TEXT,CODED,RESIDENTIAL,Residential
+dom_zone_type,TEXT,CODED,COMMERCIAL,Commercial
+dom_zone_type,TEXT,CODED,MIXED,Mixed
+dom_zone_type,TEXT,CODED,INDUSTRIAL,Industrial
+dom_zone_type,TEXT,CODED,INSTITUTIONAL,Institutional
+dom_zone_type,TEXT,CODED,OPEN,Open space
+dom_zone_type,TEXT,CODED,AGRICULTURAL,Agricultural
+dom_zone_type,TEXT,CODED,WATER,Water
+dom_zone_type,TEXT,CODED,OTHER,Other
+dom_application_status,TEXT,CODED,DRAFT,Draft
+dom_application_status,TEXT,CODED,SUBMITTED,Submitted
+dom_application_status,TEXT,CODED,UNDER_REVIEW,Under review
+dom_application_status,TEXT,CODED,APPROVED,Approved
+dom_application_status,TEXT,CODED,REJECTED,Rejected
+dom_application_status,TEXT,CODED,WITHDRAWN,Withdrawn
+dom_permit_type,TEXT,CODED,BUILDING,Building
+dom_permit_type,TEXT,CODED,TRADE,Trade
+dom_permit_type,TEXT,CODED,SIGN,Sign
+dom_permit_type,TEXT,CODED,DEMOLITION,Demolition
+dom_permit_type,TEXT,CODED,OTHER,Other
+dom_heritage_type,TEXT,CODED,BUILDING,Building
+dom_heritage_type,TEXT,CODED,SITE,Site
+dom_heritage_type,TEXT,CODED,MONUMENT,Monument
+dom_heritage_type,TEXT,CODED,PRECINCT,Precinct
+dom_heritage_type,TEXT,CODED,OTHER,Other
+dom_flood_type,TEXT,CODED,RIVER,River flood
+dom_flood_type,TEXT,CODED,RAINFALL,Rainfall flood
+dom_flood_type,TEXT,CODED,TIDAL,Tidal
+dom_flood_type,TEXT,CODED,DRAINAGE,Drainage
+dom_flood_type,TEXT,CODED,OTHER,Other
+dom_inspection_type,TEXT,CODED,ROUTINE,Routine
+dom_inspection_type,TEXT,CODED,CONDITION,Condition
+dom_inspection_type,TEXT,CODED,DEFECT,Defect
+dom_inspection_type,TEXT,CODED,SAFETY,Safety
+dom_inspection_type,TEXT,CODED,OTHER,Other
+dom_method,TEXT,CODED,VISUAL,Visual
+dom_method,TEXT,CODED,CCTV,CCTV
+dom_method,TEXT,CODED,ACOUSTIC,Acoustic
+dom_method,TEXT,CODED,HYDRAULIC,Hydraulic
+dom_method,TEXT,CODED,LIDAR,LiDAR
+dom_method,TEXT,CODED,OTHER,Other
+dom_action,TEXT,CODED,NONE,None
+dom_action,TEXT,CODED,MONITOR,Monitor
+dom_action,TEXT,CODED,REPAIR,Repair
+dom_action,TEXT,CODED,REPLACE,Replace
+dom_action,TEXT,CODED,INVESTIGATE,Investigate
+dom_wo_type,TEXT,CODED,REPAIR,Repair
+dom_wo_type,TEXT,CODED,MAINTENANCE,Maintenance
+dom_wo_type,TEXT,CODED,INSPECTION,Inspection
+dom_wo_type,TEXT,CODED,CLEANING,Cleaning
+dom_wo_type,TEXT,CODED,INSTALLATION,Installation
+dom_wo_type,TEXT,CODED,OTHER,Other
+dom_wo_status,TEXT,CODED,OPEN,Open
+dom_wo_status,TEXT,CODED,ASSIGNED,Assigned
+dom_wo_status,TEXT,CODED,IN_PROGRESS,In progress
+dom_wo_status,TEXT,CODED,COMPLETED,Completed
+dom_wo_status,TEXT,CODED,CANCELLED,Cancelled
+dom_request_channel,TEXT,CODED,PHONE,Phone
+dom_request_channel,TEXT,CODED,EMAIL,Email
+dom_request_channel,TEXT,CODED,WEB,Web
+dom_request_channel,TEXT,CODED,WALK_IN,Walk-in
+dom_request_channel,TEXT,CODED,SOCIAL,Social media
+dom_request_channel,TEXT,CODED,FIELD,Field staff
+dom_request_status,TEXT,CODED,NEW,New
+dom_request_status,TEXT,CODED,ASSIGNED,Assigned
+dom_request_status,TEXT,CODED,IN_PROGRESS,In progress
+dom_request_status,TEXT,CODED,RESOLVED,Resolved
+dom_request_status,TEXT,CODED,CLOSED,Closed
+dom_poi_category,TEXT,CODED,TOURISM,Tourism
+dom_poi_category,TEXT,CODED,EDUCATION,Education
+dom_poi_category,TEXT,CODED,HEALTH,Health
+dom_poi_category,TEXT,CODED,RELIGION,Religion
+dom_poi_category,TEXT,CODED,MARKET,Market
+dom_poi_category,TEXT,CODED,TRANSPORT,Transport
+dom_poi_category,TEXT,CODED,OTHER,Other
+dom_waterbody_type,TEXT,CODED,RIVER,River
+dom_waterbody_type,TEXT,CODED,CANAL,Canal
+dom_waterbody_type,TEXT,CODED,POND,Pond
+dom_waterbody_type,TEXT,CODED,LAKE,Lake
+dom_waterbody_type,TEXT,CODED,DRAIN,Drain
+dom_waterbody_type,TEXT,CODED,OTHER,Other
+dom_structure_type,TEXT,CODED,BRIDGE,Bridge
+dom_structure_type,TEXT,CODED,CULVERT,Culvert
+dom_structure_type,TEXT,CODED,FOOTBRIDGE,Footbridge
+dom_structure_type,TEXT,CODED,OTHER,Other
+dom_signal_type,TEXT,CODED,VEHICLE,Vehicle
+dom_signal_type,TEXT,CODED,PEDESTRIAN,Pedestrian
+dom_signal_type,TEXT,CODED,COMBINED,Combined
+dom_parking_type,TEXT,CODED,ON_STREET,On-street
+dom_parking_type,TEXT,CODED,OFF_STREET,Off-street
+dom_parking_type,TEXT,CODED,MULTI_LEVEL,Multi-level
+dom_energy_source,TEXT,CODED,GRID,Grid
+dom_energy_source,TEXT,CODED,SOLAR,Solar
+dom_energy_source,TEXT,CODED,GENERATOR,Generator
+dom_energy_source,TEXT,CODED,OTHER,Other

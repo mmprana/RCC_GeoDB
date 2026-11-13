@@ -1,0 +1,28 @@
+﻿relationship,origin,destination,cardinality,origin_key,foreign_key,forward_label,backward_label
+REL_PARCEL_BUILDING,CAD/parcel,CAD/building,ONE_TO_MANY,parcel_id,parcel_id,contains building,is in parcel
+REL_PARCEL_ADDRESS,CAD/parcel,CAD/address_point,ONE_TO_MANY,parcel_id,parcel_id,contains address,is in parcel
+REL_BUILDING_ADDRESS,CAD/building,CAD/address_point,ONE_TO_MANY,building_id,building_id,contains address,is in building
+REL_ROAD_ADDRESS,TRANS/road_centerline,CAD/address_point,ONE_TO_MANY,road_id,road_id,has address,is on road
+REL_ROAD_ADDRESS_RANGE,TRANS/road_centerline,CAD/address_range,ONE_TO_MANY,road_id,road_id,has address range,is on road
+REL_ROAD_PAVEMENT,TRANS/road_centerline,TRANS/pavement_segment,ONE_TO_MANY,road_id,road_id,has pavement,is on road
+REL_ROAD_FOOTPATH,TRANS/road_centerline,TRANS/footpath,ONE_TO_MANY,road_id,road_id,has footpath,is on road
+REL_ROAD_BRIDGE,TRANS/road_centerline,TRANS/bridge_culvert,ONE_TO_MANY,road_id,road_id,has bridge/culvert,is on road
+REL_ROAD_SIGN,TRANS/road_centerline,TRANS/road_sign,ONE_TO_MANY,road_id,road_id,has sign,is on road
+REL_WARD_ROAD,REF/ward_boundary,TRANS/road_centerline,ONE_TO_MANY,ward_code,ward_code,contains road,is in ward
+REL_WARD_PARCEL,REF/ward_boundary,CAD/parcel,ONE_TO_MANY,ward_code,ward_code,contains parcel,is in ward
+REL_PARK_TREE,PARK/park,PARK/tree,ONE_TO_MANY,park_id,park_id,contains tree,is in park
+REL_PARK_PLAYGROUND,PARK/park,PARK/playground,ONE_TO_MANY,park_id,park_id,contains playground,is in park
+REL_PARK_SPORTS,PARK/park,PARK/sports_facility,ONE_TO_MANY,park_id,park_id,contains sports facility,is in park
+REL_ASSET_INSPECTION,asset_registry,OPS/inspection,ONE_TO_MANY,asset_no,asset_no,has inspection,is inspection of asset
+REL_ASSET_WORK_ORDER,asset_registry,OPS/work_order,ONE_TO_MANY,asset_no,asset_no,has work order,is work order for asset
+REL_ASSET_REQUEST,asset_registry,OPS/service_request,ONE_TO_MANY,asset_no,asset_no,has service request,is request for asset
+REL_ROUTE_ROUTE_BIN,WASTE/collection_route,route_bin,ONE_TO_MANY,route_id,route_id,has bin assignment,is on route
+REL_BIN_ROUTE_BIN,WASTE/waste_bin,route_bin,ONE_TO_MANY,asset_no,bin_asset_no,has route assignment,is assigned bin
+REL_PARCEL_DA,CAD/parcel,PLAN/development_application,ONE_TO_MANY,parcel_id,parcel_id,has development application,is on parcel
+REL_PARCEL_PERMIT,CAD/parcel,PLAN/building_permit,ONE_TO_MANY,parcel_id,parcel_id,has building permit,is on parcel
+REL_PARCEL_HERITAGE,CAD/parcel,PLAN/heritage_site,ONE_TO_MANY,parcel_id,parcel_id,has heritage site,is on parcel
+REL_ROAD_MARKING,TRANS/road_centerline,TRANS/road_marking,ONE_TO_MANY,road_id,road_id,has road marking,is on road
+REL_WARD_COLLECTION_ZONE,REF/ward_boundary,WASTE/collection_zone,ONE_TO_MANY,ward_code,ward_code,contains collection zone,is in ward
+REL_ZONE_BIN,WASTE/collection_zone,WASTE/waste_bin,ONE_TO_MANY,zone_id,zone_id,contains bin,is in collection zone
+REL_ROUTE_VEHICLE,WASTE/collection_route,waste_vehicle,ONE_TO_MANY,route_id,assigned_route_id,uses vehicle,is assigned to route
+REL_ADDRESS_EVENT,CAD/address_point,CIVIC/event,ONE_TO_MANY,address_id,address_id,hosts event,is at address
