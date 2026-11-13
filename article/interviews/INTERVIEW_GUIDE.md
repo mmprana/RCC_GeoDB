@@ -10,7 +10,7 @@
 
 **Interview length:** 45–60 minutes.
 
-**Format:** semi-structured, key-informant interview. The questions below are a guide, not a script. Follow the participant’s experience and ask for concrete examples.
+**Format:** semi-structured, key-informant interview. The questions below are a guide, not a script. At 45–60 minutes, select 20–25 core questions and follow the participant’s experience. Do not ask all 40 questions mechanically.
 
 ---
 
