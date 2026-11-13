@@ -47,8 +47,8 @@ Generated from `LITERATURE_MATRIX.csv` and Crossref metadata. Check every entry 
 - Enemark, S., McLaren, R., & Lemmen, C. (2021). Fit-for-Purpose Land Administration—Providing Secure Land Rights at Scale. *Land*, 10(9), 972. https://doi.org/10.3390/land10090972
 - Giff, G. A., & Crompvoets, J. (2008). Performance Indicators a tool to Support Spatial Data Infrastructure assessment. *Computers, Environment and Urban Systems*, 32(5), 365-376. https://doi.org/10.1016/j.compenvurbsys.2008.08.001
 - Barns, S. (2018). Smart cities and urban data platforms: Designing interfaces for smart governance. *City, Culture and Society*, 12, 5-12. https://doi.org/10.1016/j.ccs.2017.09.006
--  (2023). Smart City Data Governance. *OECD Urban Studies*. https://doi.org/10.1787/e57ce301-en
-- Deng, T., Zhang, K., & Shen, Z.-J. (. (2021). A systematic review of a digital twin city: A new pattern of urban governance toward smart cities. *Journal of Management Science and Engineering*, 6(2), 125-134. https://doi.org/10.1016/j.jmse.2021.03.003
+- OECD (2023). Smart City Data Governance. *OECD Urban Studies*. https://doi.org/10.1787/e57ce301-en
+- Deng, T., Zhang, K., & Shen, Z.-J. M. (2021). A systematic review of a digital twin city: A new pattern of urban governance toward smart cities. *Journal of Management Science and Engineering*, 6(2), 125-134. https://doi.org/10.1016/j.jmse.2021.03.003
 - Haraguchi, M., Funahashi, T., & Biljecki, F. (2024). Assessing governance implications of city digital twin technology: A maturity model approach. *Technological Forecasting and Social Change*, 204, 123409. https://doi.org/10.1016/j.techfore.2024.123409
 - Cavallo, S., Lynch, J., & Scull, P. (2014). The Digital Divide in Citizen-Initiated Government Contacts: A GIS Approach. *Journal of Urban Technology*, 21(4), 77-93. https://doi.org/10.1080/10630732.2014.942167
 - Yıldırım, V., Yomralıoğlu, T., Nişancı, R., & İnan, H. (2014). Turkish street addressing system and geocoding challenges. *Proceedings of the Institution of Civil Engineers - Municipal Engineer*, 167(2), 99-107. https://doi.org/10.1680/muen.13.00008

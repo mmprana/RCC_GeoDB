@@ -15,7 +15,7 @@ Target: *Habitat International* (primary); *Cities*; *Land Use Policy*; *Informa
 | File | Purpose |
 |---|---|
 | `ARTICLE_PLAN.md` | Full article plan: abstract, research questions, theory, method, structure, figures, timeline |
-| `LITERATURE_MATRIX.csv` | 69-source literature matrix with themes, arguments, benefits, complexities, solutions, relevance |
+| `LITERATURE_MATRIX.csv` | 70-source literature matrix with themes, arguments, benefits, complexities, solutions, relevance |
 | `LITERATURE_REVIEW_DRAFT.md` | Draft literature review (~2,700 words) |
 | `REFERENCES_APA.md` | Working APA 7 reference list generated from Crossref metadata |
 | `REFERENCES.bib` | BibTeX for reference management |

@@ -56,6 +56,12 @@ AUTHOR_OVERRIDES = {
         {"family": "Delgado Fernandez", "given": "Tatiana"},
         {"family": "Vandenbroucke", "given": "D."},
     ],
+    "10.1787/e57ce301-en": [{"family": "OECD", "given": ""}],
+    "10.1016/j.jmse.2021.03.003": [
+        {"family": "Deng", "given": "Tianhu"},
+        {"family": "Zhang", "given": "Keren"},
+        {"family": "Shen", "given": "Zuo-Jun M."},
+    ],
 }
 
 TITLE_FIXES = {
@@ -75,6 +81,7 @@ YEAR_OVERRIDES = {
 
 SKIP_DOIS = {
     "10.1080/24749508.2024.2373489",
+    "10.1016/j.jmse.2021.03.003",
 }
 
 
@@ -224,6 +231,7 @@ def main():
         time.sleep(0.1)
 
     manual_apa = [
+        "Deng, T., Zhang, K., & Shen, Z.-J. M. (2021). A systematic review of a digital twin city: A new pattern of urban governance toward smart cities. *Journal of Management Science and Engineering*, 6(2), 125–134. https://doi.org/10.1016/j.jmse.2021.03.003",
         "Rajshahi City Corporation. (n.d.). *Home*. http://erajshahi.portal.gov.bd/",
         "Faridatul, M. I., Islam, M., Joy, M. J. H., Wakil, M. A., Rahman, M. M., & Sarker, D. (2024). Impact of greenery and waterbody on the cooling of city’s environment: A case of Rajshahi City. *Geology, Ecology, and Landscapes*, 9(3), 1065–1086. https://doi.org/10.1080/24749508.2024.2373489",
         "Local Government (City Corporation) Act, 2009. (Bangladesh).",
@@ -244,6 +252,7 @@ def main():
             handle.write(f"- {entry}\n")
 
     manual_bib = [
+        "@article{deng2021, author={Deng, Tianhu and Zhang, Keren and Shen, Zuo-Jun M.}, title={A Systematic Review of a Digital Twin City: A New Pattern of Urban Governance Toward Smart Cities}, journal={Journal of Management Science and Engineering}, volume={6}, number={2}, pages={125--134}, year={2021}, doi={10.1016/j.jmse.2021.03.003}}",
         "@misc{rcc_nd, author={{Rajshahi City Corporation}}, title={Home}, howpublished={\\url{http://erajshahi.portal.gov.bd/}}, year={n.d.}}",
         "@article{faridatul2024, author={Faridatul, Mst Ilme and Islam, Muhaiminul and Joy, Md. Jahid Hasan and Wakil, Md. Abdul and Rahman, Md. Mostafizur and Sarker, Dulal}, title={Impact of Greenery and Waterbody on the Cooling of City’s Environment: A Case of Rajshahi City}, journal={Geology, Ecology, and Landscapes}, volume={9}, number={3}, pages={1065--1086}, year={2024}, doi={10.1080/24749508.2024.2373489}}",
         "@book{scott1998, author={Scott, James C.}, title={Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed}, publisher={Yale University Press}, address={New Haven, CT}, year={1998}}",
