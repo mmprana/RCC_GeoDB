@@ -1,0 +1,75 @@
+# References (working APA 7 list)
+
+Generated from `LITERATURE_MATRIX.csv` and Crossref metadata. Check every entry against the publisher record before submission.
+
+- Ventura, S. J. (1995). The Use of Geographic Information Systems in Local Government. *Public Administration Review*, 55(5), 461. https://doi.org/10.2307/976770
+- Budić, Z. D. (1994). Effectiveness of Geographic Information Systems in Local Planning. *Journal of the American Planning Association*, 60(2), 244-263. https://doi.org/10.1080/01944369408975579
+- Nedović-Budić, Z., & Godschalk, D. R. (1996). Human Factors in Adoption of Geographic Information Systems: A Local Government Case Study. *Public Administration Review*, 56(6), 554. https://doi.org/10.2307/977254
+- Campbell, H. (1994). How effective are GIS in practice? A case study of British local government. *International journal of geographical information systems*, 8(3), 309-325. https://doi.org/10.1080/02693799408902002
+- Worrall, L. (1994). Justifying investment in GIS: a local government perspective. *International journal of geographical information systems*, 8(6), 545-565. https://doi.org/10.1080/02693799408902021
+- Nedović-Budić, Z., & Pinto, J. K. (1999). Interorganizational GIS: Issues and prospects. *The Annals of Regional Science*, 33(2), 183-195. https://doi.org/10.1007/s001680050100
+- Ramasubramanian, L. (1999). GIS Implementation in Developing Countries: Learning from Organisational Theory and Reflective Practice. *Transactions in GIS*, 3(4), 359-380. https://doi.org/10.1111/1467-9671.00028
+- Bishop, I. D., Escobar, F. J., Karuppannan, S., Suwarnarat, K., Williamson, I. P., Yates, P. M., & Yaqub, H. W. (2000). Spatial data infrastructures for cities in developing countries. *Cities*, 17(2), 85-96. https://doi.org/10.1016/S0264-2751(00)00004-4
+- Jacoby, S., Smith, J., Ting, L., & Williamson, I. (2002). Developing a common spatial data infrastructure between State and Local Government--an Australian case study. *International Journal of Geographical Information Science*, 16(4), 305-322. https://doi.org/10.1080/13658810110096001
+- Mukherjee, F. (2018). GIS use by an urban local body as part of e-governance in India. *Cartography and Geographic Information Science*, 45(6), 556-569. https://doi.org/10.1080/15230406.2018.1448304
+- Mukherjee, F. (2020). Institutional Networks of Association for GIS Use: The Case of an Urban Local Body in India. *Annals of the American Association of Geographers*, 110(5), 1445-1463. https://doi.org/10.1080/24694452.2019.1691495
+- Hijazi, I. H., Qanazi, S., & El Meouche, R. (2025). Assessing GIS Maturity in Local Government Units: A Case Study of Palestinian Municipalities. *Lecture Notes in Networks and Systems*, 628-640. https://doi.org/10.1007/978-3-031-88653-9_61
+- Venigalla, M. M., & Baik, B. H. (2007). GIS-Based Engineering Management Service Functions: Taking GIS beyond Mapping for Municipal Governments. *Journal of Computing in Civil Engineering*, 21(5), 331-342. https://doi.org/10.1061/(ASCE)0887-3801(2007)21:5(331)
+- Dawidowicz, A., Muczyński, A., & Pacholczyk, M. E. (2019). The use of GIS tools for sustainable management of municipal housing stock in Poland. *Survey Review*, 51(368), 431-441. https://doi.org/10.1080/00396265.2018.1474694
+- Heeks, R. (2002). Information Systems and Developing Countries: Failure, Success, and Local Improvisations. *The Information Society*, 18(2), 101-112. https://doi.org/10.1080/01972240290075039
+- Dada, D. (2006). The Failure of E‐Government in Developing Countries: A Literature Review. *The Electronic Journal of Information Systems in Developing Countries*, 26(1), 1-10. https://doi.org/10.1002/j.1681-4835.2006.tb00176.x
+- Ndou, V. (2004). E – Government for Developing Countries: Opportunities and Challenges. *The Electronic Journal of Information Systems in Developing Countries*, 18(1), 1-24. https://doi.org/10.1002/j.1681-4835.2004.tb00117.x
+- Walsham, G. (2017). ICT4D research: reflections on history and future agenda. *Information Technology for Development*, 23(1), 18-41. https://doi.org/10.1080/02681102.2016.1246406
+- Schuppan, T. (2009). E-Government in developing countries: Experiences from sub-Saharan Africa. *Government Information Quarterly*, 26(1), 118-127. https://doi.org/10.1016/j.giq.2008.01.006
+- Khatri, V., & Brown, C. V. (2010). Designing data governance. *Communications of the ACM*, 53(1), 148-152. https://doi.org/10.1145/1629175.1629210
+- Janssen, M., Brous, P., Estevez, E., Barbosa, L. S., & Janowski, T. (2020). Data governance: Organizing data for trustworthy Artificial Intelligence. *Government Information Quarterly*, 37(3), 101493. https://doi.org/10.1016/j.giq.2020.101493
+- Paskaleva, K., Evans, J., Martin, C., Linjordet, T., Yang, D., & Karvonen, A. (2017). Data Governance in the Sustainable Smart City. *Informatics*, 4(4), 41. https://doi.org/10.3390/informatics4040041
+- Kitchin, R. (2014). The real-time city? Big data and smart urbanism. *GeoJournal*, 79(1), 1-14. https://doi.org/10.1007/s10708-013-9516-8
+- Hollands, R. G. (2015). Critical interventions into the corporate smart city. *Cambridge Journal of Regions, Economy and Society*, 8(1), 61-77. https://doi.org/10.1093/cjres/rsu011
+- Dencik, L., Hintz, A., Redden, J., & Treré, E. (2019). Exploring Data Justice: Conceptions, Applications and Directions. *Information, Communication & Society*, 22(7), 873-881. https://doi.org/10.1080/1369118X.2019.1606268
+- Rahman, M. M., & Szabó, G. (2023). Assessing the Status of National Spatial Data Infrastructure (NSDI) of Bangladesh. *ISPRS International Journal of Geo-Information*, 12(6), 236. https://doi.org/10.3390/ijgi12060236
+- Tanny, T. F. (2022). Urban Local Government Finance in Bangladesh. *Global Encyclopedia of Public Administration, Public Policy, and Governance*, 13117-13123. https://doi.org/10.1007/978-3-030-66252-3_4361
+- Pal, S. K., & Sarker, P. C. (2023). SMART Bangladesh Vision 2041: Concept of a Sustainable Developed Country. *Environmental Management and Sustainable Development*, 12(1), 67. https://doi.org/10.5296/emsd.v12i1.20666
+- Sultana, M. S., Waine, T., Bari, N., & Tyrrel, S. (2025). Assessing the reliability of open-source data used for spatial characterisation of urban sanitation infrastructure—a field study in Rajshahi, Bangladesh. *Environmental Science and Pollution Research*, 32(13), 8267-8283. https://doi.org/10.1007/s11356-025-36158-0
+- Habib, M. A., Ahmed, M. M., Aziz, M., Beg, M. R. A., & Hoque, M. E. (2021). Municipal Solid Waste Management and Waste-to-Energy Potential from Rajshahi City Corporation in Bangladesh. *Applied Sciences*, 11(9), 3744. https://doi.org/10.3390/app11093744
+- Singh, A., Singh, S. K., Meraj, G., Kanga, S., Farooq, M., Kranjčić, N., Đurin, B., & Sudhanshu (2022). Designing Geographic Information System Based Property Tax Assessment in India. *Smart Cities*, 5(1), 364-381. https://doi.org/10.3390/smartcities5010021
+- Namangaya, A. (2018). Practices in Institutionalizing GIS for Revenue Mobilization: The Case of Secondary Cities in Tanzania. *Current Urban Studies*, 06(04), 559-572. https://doi.org/10.4236/cus.2018.64030
+- Norregaard, J. (2013). Taxing Immovable Property Revenue Potential and Implementation Challenges. *IMF Working Papers*, 2013(129), 1. https://doi.org/10.5089/9781484369050.001
+- Kaganova, O., & Telgarsky, J. (2018). Management of capital assets by local governments: An assessment and benchmarking survey. *International Journal of Strategic Property Management*, 22(2), 143-156. https://doi.org/10.3846/ijspm.2018.445
+- Conradie, P., & Choenni, S. (2014). On the barriers for local government releasing open data. *Government Information Quarterly*, 31, S10-S17. https://doi.org/10.1016/j.giq.2014.01.003
+- Wilson, B., & Cong, C. (2021). Beyond the supply side: Use and impact of municipal open data in the U.S. *Telematics and Informatics*, 58, 101526. https://doi.org/10.1016/j.tele.2020.101526
+- Obermeyer, N. J. (1998). The Evolution of Public Participation GIS. *Cartography and Geographic Information Systems*, 25(2), 65-66. https://doi.org/10.1559/152304098782594599
+- Kar, B., Sieber, R., Haklay, M., & Ghose, R. (2016). Public Participation GIS and Participatory GIS in the Era of GeoWeb. *The Cartographic Journal*, 53(4), 296-299. https://doi.org/10.1080/00087041.2016.1256963
+- Graser, A., Sutton, T., & Bernasocchi, M. (2025). The QGIS project: Spatial without compromise. *Patterns*, 6(7), 101265. https://doi.org/10.1016/j.patter.2025.101265
+- Steiniger, S., & Hunter, A. J. (2013). The 2012 free and open source GIS software map – A guide to facilitate research, development, and adoption. *Computers, Environment and Urban Systems*, 39, 136-150. https://doi.org/10.1016/j.compenvurbsys.2012.10.003
+- Goodchild, M. F., & Hill, L. L. (2008). Introduction to digital gazetteer research. *International Journal of Geographical Information Science*, 22(10), 1039-1044. https://doi.org/10.1080/13658810701850497
+- Williamson, I. P. (1986). Cadastral and land information systems in developing countries. *Australian Surveyor*, 33(1), 27-43. https://doi.org/10.1080/00050326.1986.10435202
+- Enemark, S., McLaren, R., & Lemmen, C. (2021). Fit-for-Purpose Land Administration—Providing Secure Land Rights at Scale. *Land*, 10(9), 972. https://doi.org/10.3390/land10090972
+- Giff, G. A., & Crompvoets, J. (2008). Performance Indicators a tool to Support Spatial Data Infrastructure assessment. *Computers, Environment and Urban Systems*, 32(5), 365-376. https://doi.org/10.1016/j.compenvurbsys.2008.08.001
+- Barns, S. (2018). Smart cities and urban data platforms: Designing interfaces for smart governance. *City, Culture and Society*, 12, 5-12. https://doi.org/10.1016/j.ccs.2017.09.006
+-  (2023). Smart City Data Governance. *OECD Urban Studies*. https://doi.org/10.1787/e57ce301-en
+- Deng, T., Zhang, K., & Shen, Z.-J. (. (2021). A systematic review of a digital twin city: A new pattern of urban governance toward smart cities. *Journal of Management Science and Engineering*, 6(2), 125-134. https://doi.org/10.1016/j.jmse.2021.03.003
+- Haraguchi, M., Funahashi, T., & Biljecki, F. (2024). Assessing governance implications of city digital twin technology: A maturity model approach. *Technological Forecasting and Social Change*, 204, 123409. https://doi.org/10.1016/j.techfore.2024.123409
+- Cavallo, S., Lynch, J., & Scull, P. (2014). The Digital Divide in Citizen-Initiated Government Contacts: A GIS Approach. *Journal of Urban Technology*, 21(4), 77-93. https://doi.org/10.1080/10630732.2014.942167
+- Yıldırım, V., Yomralıoğlu, T., Nişancı, R., & İnan, H. (2014). Turkish street addressing system and geocoding challenges. *Proceedings of the Institution of Civil Engineers - Municipal Engineer*, 167(2), 99-107. https://doi.org/10.1680/muen.13.00008
+- Ferdous, J. (2024). Local Government in Bangladesh. *Good Governance in Bangladesh*, 73-89. https://doi.org/10.4324/9781003505853-4
+- Islam, M. R., Alam, M. S., Billah, W., & Sayem, M. A. (2026). Re-evaluating the Digital Transformation of Local Government Institutions to Build SMART Local Governance in Bangladesh: A Study on Municipalities. *Asia-Pacific Journal of Rural Development*. https://doi.org/10.1177/10185291261481391
+- Chowdhury, S. (2018). Do government web portals matter for citizen engagement in governance? A study of rural local government digital centres in Bangladesh. *Asia Pacific Journal of Public Administration*, 40(2), 132-141. https://doi.org/10.1080/23276665.2018.1483051
+- Tanvir, M. R., & Haque, A. (2023). Assessment of Development Plans for Small Urban Areas of Bangladesh: Remote Sensing and GIS-based Approach. *Applied Spatial Analysis and Policy*, 16(4), 1591-1625. https://doi.org/10.1007/s12061-023-09520-3
+- Rahman, M. H., Islam, M. H., & Neema, M. N. (2022). GIS-based compactness measurement of urban form at neighborhood scale: The case of Dhaka, Bangladesh. *Journal of Urban Management*, 11(1), 6-22. https://doi.org/10.1016/j.jum.2021.08.005
+- Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, 28(1), 75-106. https://doi.org/10.2307/25148625
+- Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A Design Science Research Methodology for Information Systems Research. *Journal of Management Information Systems*, 24(3), 45-77. https://doi.org/10.2753/MIS0742-1222240302
+- Gregor, S., & Hevner, A. R. (2013). Positioning and presenting design science research for maximum impact. *MIS Quarterly*, 37(2), 337-355. https://doi.org/10.25300/MISQ/2013/37.2.01
+- Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. *Qualitative Research in Psychology*, 3(2), 77-101. https://doi.org/10.1191/1478088706qp063oa
+- Tricco, A. C., Lillie, E., Zarin, W., O'Brien, K. K., Colquhoun, H., Levac, D., Moher, D., Peters, M. D., Horsley, T., Weeks, L., Hempel, S., Akl, E. A., Chang, C., McGowan, J., Stewart, L., Hartling, L., Aldcroft, A., Wilson, M. G., Garritty, C., Lewin, S., Godfrey, C. M., Macdonald, M. T., Langlois, E. V., Soares-Weiser, K., Moriarty, J., Clifford, T., Tunçalp, Ö., & Straus, S. E. (2018). PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. *Annals of Internal Medicine*, 169(7), 467-473. https://doi.org/10.7326/M18-0850
+- Grus, L., Crompvoets, J., Bregt, A. K., van Loenen, B., Delgado Fernandez, T., & Vandenbroucke, D. (2011). Evaluating the application of the multi-view spatial data infrastructure assessment framework. *Journal of Spatial Science*, 56(1), 121-141. https://doi.org/10.1080/14498596.2011.567438
+- Rajshahi City Corporation. (n.d.). *Home*. http://erajshahi.portal.gov.bd/
+- Faridatul, M. I., Islam, M., Joy, M. J. H., Wakil, M. A., Rahman, M. M., & Sarker, D. (2024). Impact of greenery and waterbody on the cooling of city’s environment: A case of Rajshahi City. *Geology, Ecology, and Landscapes*, 9(3), 1065–1086. https://doi.org/10.1080/24749508.2024.2373489
+- Local Government (City Corporation) Act, 2009. (Bangladesh).
+- Right to Information Act, 2009. (Bangladesh).
+- Government of Bangladesh. (2021). *Smart Bangladesh Vision 2041*. Dhaka: Government of Bangladesh.
+- International Organization for Standardization. (2014). *ISO 55000:2014 Asset management — Overview, principles and terminology*. Geneva: ISO.
+- Institute of Public Works Engineering Australasia. (2020). *International Infrastructure Management Manual (IIMM)*. Sydney: IPWEA.
+- Lipsky, M. (1980). *Street-level bureaucracy: Dilemmas of the individual in public services*. New York: Russell Sage Foundation.
+- Moore, M. H. (1995). *Creating public value: Strategic management in government*. Cambridge, MA: Harvard University Press.
+- Scott, J. C. (1998). *Seeing like a state: How certain schemes to improve the human condition have failed*. New Haven, CT: Yale University Press.

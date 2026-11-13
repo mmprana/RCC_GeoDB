@@ -1,0 +1,93 @@
+# Article Package
+
+Working materials for:
+
+**Making the City Legible: A Human-Centred Geodatabase for Urban Planning and Local Government in Bangladesh**
+
+Case: Rajshahi City Corporation (RCC)
+Method: scoping review + embedded case study + design science research
+Target: *Habitat International* (primary); *Cities*; *Land Use Policy*; *Information Technology for Development*
+
+---
+
+## Files
+
+| File | Purpose |
+|---|---|
+| `ARTICLE_PLAN.md` | Full article plan: abstract, research questions, theory, method, structure, figures, timeline |
+| `LITERATURE_MATRIX.csv` | 69-source literature matrix with themes, arguments, benefits, complexities, solutions, relevance |
+| `LITERATURE_REVIEW_DRAFT.md` | Draft literature review (~2,700 words) |
+| `REFERENCES_APA.md` | Working APA 7 reference list generated from Crossref metadata |
+| `REFERENCES.bib` | BibTeX for reference management |
+| `build_references.py` | Reproducible reference builder from `LITERATURE_MATRIX.csv` |
+| `CASE_NOTES.md` | Notes on Perth, Wollongong, Camden, Wodonga and other comparators |
+| `FIGURE_SPECS.md` | Mermaid drafts for research design, workflows, architecture, ERD, governance, roadmap |
+| `DATA_DICTIONARY_EXCERPT.md` | Article-ready data dictionary for parcel, building, address, road, drain, bin, asset registry |
+| `ERD.md` | Relational design, cardinalities, key decisions |
+| `GOVERNANCE_FRAMEWORK.md` | Principles, roles, RACI, policies, processes, maturity, financing, KPIs |
+| `IMPLEMENTATION_ROADMAP.md` | Phases, decision gates, risks, costs, KPIs |
+| `MANUSCRIPT_DRAFT.md` | Working full draft (~6,800 words) |
+
+---
+
+## Status
+
+This is a **design-phase draft**, not a submission-ready manuscript.
+
+Completed:
+
+- article argument and structure;
+- verified literature matrix and reference list;
+- literature review draft;
+- data model excerpt;
+- ERD;
+- governance framework;
+- implementation roadmap;
+- figure specifications;
+- working manuscript draft.
+
+Still needed:
+
+1. RCC document review: ward maps, holding-tax register, engineering drawings, budgets, organograms.
+2. 8–12 key-informant interviews and thematic analysis.
+3. Expert review of the schema and governance framework.
+4. RCC budget and revenue figures, verified.
+5. Final figures drawn in a journal-compatible format.
+6. Language editing for length and voice.
+7. Journal-specific formatting and cover letter.
+
+---
+
+## Working argument
+
+The article argues that:
+
+1. RCC’s binding constraint is not software but **stewardship**: ownership, maintenance, validation, and sharing.
+2. The **address** is the foundational layer for property tax, waste, water, drainage, and service requests.
+3. A **common asset registry** allows inspections and work orders to attach to any asset without schema changes.
+4. **Governance must be designed with the system**, not added later.
+5. **Public value and privacy must be designed together**: making the city legible should not make it surveilled.
+6. Implementation must be **phased, pilot-led, and maintenance-funded**.
+
+---
+
+## Target contribution
+
+A context-sensitive municipal spatial data infrastructure model for Bangladeshi city corporations, combining:
+
+- a thematic geodatabase;
+- an address gazetteer;
+- a common asset registry;
+- a staged automation pipeline;
+- a governance framework;
+- a phased implementation roadmap;
+- a humanistic account of legibility, equity, and data justice.
+
+---
+
+## Notes
+
+- All references should be checked against publisher records before submission.
+- The literature matrix includes academic sources, legislation, standards, and grey literature.
+- The manuscript uses `[empirical phase]` markers where RCC interviews and budget data should be inserted.
+- The article does not claim a completed city-wide implementation.

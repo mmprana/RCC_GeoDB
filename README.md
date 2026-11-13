@@ -332,3 +332,22 @@ before building.
 
 The database is intentionally empty. The next milestone is not more schema —
 it is the first complete pilot ward.
+
+---
+
+## 11. Accompanying article
+
+The `article/` folder contains the working materials for the academic article
+*Making the City Legible: A Human-Centred Geodatabase for Urban Planning and
+Local Government in Bangladesh*.
+
+It includes:
+
+- the article plan and research questions;
+- a literature matrix and literature review draft;
+- a manuscript draft;
+- data dictionary excerpt and relational design;
+- governance framework and implementation roadmap;
+- figure specifications and references.
+
+Open `article/README.md` for the full index.
