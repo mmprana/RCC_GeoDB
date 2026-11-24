@@ -2,7 +2,11 @@
 
 **File:** `RCC_GeoDB_Manuscript_TIG.docx`
 
+**Illustrated review copy:** `RCC_GeoDB_Manuscript_TIG_Illustrated.docx`
+
 Built against the current Wiley author guidelines for *Transactions in GIS* (updated 25 February 2025) and the journal’s free-format submission policy.
+
+> The illustrated review copy places tables and figures inline so they are visible when the document is opened. The submission-style file keeps tables after the reference list and figures separate, as the journal requires at revision and acceptance.
 
 ## Requirements check
 
@@ -21,10 +25,10 @@ Built against the current Wiley author guidelines for *Transactions in GIS* (upd
 | Page numbers | Yes | Footer |
 | Line numbering | Yes | Continuous |
 | References APA 7 | Yes | 71 entries, author–date, alphabetical |
-| Tables after reference list | Yes | Table 1 and Table 2 |
+| Tables after reference list | Yes in submission file; inline in illustrated review copy | Table 1–3 |
 | Tables editable | Yes | Native Word tables, not images |
 | Figure legends after tables | Yes | Six legends |
-| Figures separate files | Yes | Legends only in manuscript; figures to be uploaded separately |
+| Figures separate files | Yes for submission; embedded for review | Six PNGs in `figures/` |
 | Appendices after figure legends | Yes | Supplementary files listed |
 | Data availability statement | Yes | Title page |
 | Conflict of interest statement | Yes | Title page |
@@ -38,7 +42,7 @@ Built against the current Wiley author guidelines for *Transactions in GIS* (upd
 - Abstract: **135 words**
 - Main text: approximately **8,900 words** (excluding references, tables, figure legends, appendices)
 - References: **71 entries**
-- Tables: **2**
+- Tables: **2** in the submission-style file; **3** in the illustrated review copy (including the implementation roadmap)
 - Figures: **6** (supplied separately)
 
 ## Before submission

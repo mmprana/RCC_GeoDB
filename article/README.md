@@ -28,8 +28,12 @@ Target: *Transactions in GIS* (primary); *Cities*; *Habitat International*; *Int
 | `GOVERNANCE_FRAMEWORK.md` | Principles, roles, RACI, policies, processes, maturity, financing, KPIs |
 | `IMPLEMENTATION_ROADMAP.md` | Phases, decision gates, risks, costs, KPIs |
 | `MANUSCRIPT_DRAFT.md` | Working full draft (~8,900 words) |
-| `RCC_GeoDB_Manuscript_TIG.docx` | Wiley-formatted manuscript for *Transactions in GIS* |
-| `build_docx.py` | Builds the Word manuscript from the Markdown source |
+| `RCC_GeoDB_Manuscript_TIG.docx` | Wiley-formatted manuscript for *Transactions in GIS* (tables after references; figures separate) |
+| `RCC_GeoDB_Manuscript_TIG_Illustrated.docx` | Illustrated review copy with tables and figures placed inline |
+| `build_docx.py` | Builds the submission-style Word manuscript |
+| `build_docx_illustrated.py` | Builds the illustrated review copy |
+| `make_figures.py` | Generates the six figures as high-resolution PNGs |
+| `figures/` | Figure PNGs: workflow, architecture, ERD, lifecycle, governance, roadmap |
 | `DOCX_COMPLIANCE_CHECK.md` | Requirement-by-requirement check against the journal guidelines |
 | `interviews/` | Interview guide, question bank, consent script, response templates, coding frame |
 | `interviews/FINDINGS_MEMO.md` | Anonymised empirical findings, quotes, limitations, and implications |
