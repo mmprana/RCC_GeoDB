@@ -1,12 +1,12 @@
 # Making the City Legible
 ## A Human-Centred Geodatabase for Urban Planning and Local Government in Bangladesh
 
-**Working manuscript draft — not for submission**
+**Working manuscript draft — empirical version**
 **Case:** Rajshahi City Corporation (RCC)
 **Method:** Design science research, scoping review, embedded case study
 **Target:** *Transactions in GIS*
 
-> **Note to co-authors:** This is a design-phase manuscript. It reports the proposed artifact and the documentary/technical analysis, not completed interviews. Sections marked `[empirical phase]` should be completed after RCC interviews and expert review. Budget figures, ward-level statistics, and quotations must be verified before submission.
+> **Note to co-authors:** This draft integrates 11 completed interviews with RCC planners, councillors, field staff, health services, a partner agency, an academic, a resident, and the cleaning department. Budget figures, some ward-level statistics, and final quotations still need verification before submission. The sample does not include revenue, engineering, ICT/GIS, or WASA respondents; claims about those functions are therefore qualified in the text.
 
 ---
 
@@ -14,9 +14,9 @@
 
 Bangladeshi city corporations hold a great deal of information that is fundamentally spatial: parcels, roads, drains, buildings, waste collection points, streetlights, taxes, and public facilities. Yet much of this information is kept in paper maps, Excel registers, departmental files, and the memory of experienced staff. The result is not simply a data problem. It is a planning problem, a revenue problem, and a problem of public trust.
 
-This article asks how a resource-constrained city corporation can build a maintainable, human-centred geospatial data infrastructure from a paper-and-Excel starting point. Drawing on a scoping review of municipal GIS, spatial data infrastructure, e-government, and data governance, and using Rajshahi City Corporation as an embedded case, the article proposes a design-science artifact: a thematic geodatabase, an address-centred data model, an automation pipeline, a governance framework, and a phased implementation roadmap. The proposal is assessed against technical, institutional, economic, and public-value criteria.
+This article asks how a resource-constrained city corporation can build a maintainable, human-centred geospatial data infrastructure from a paper-and-Excel starting point. Drawing on a scoping review of municipal GIS, spatial data infrastructure, e-government, and data governance, 11 semi-structured interviews with RCC planners, councillors, field staff, health services, a partner agency, an academic, a resident, and the cleaning department, and a proof-of-concept geodatabase, the article proposes a design-science artifact: a thematic geodatabase, an address-centred data model, an automation pipeline, a governance framework, and a phased implementation roadmap. The interviews reveal a paper/Excel baseline, departmental silos, an address gap, a cadastral–holding tax disconnect, the absence of a shared asset register, and a strong demand for a Spatial Services Unit, data stewardship, and selective publication. The proposal is assessed against technical, institutional, economic, and public-value criteria.
 
-The article argues that the binding constraint is not software. It is stewardship: who owns, maintains, validates, and shares the data. It also argues that making a city legible need not mean making it surveilled. A municipal geodatabase can be designed to make citizens more visible to planners and service providers while protecting privacy, respecting language and local knowledge, and strengthening public accountability. The article contributes a context-sensitive implementation model for Bangladeshi city corporations and a humanistic account of spatial data infrastructure as public infrastructure.
+The article argues that the binding constraint is not software. It is stewardship: who owns, maintains, validates, and shares the data. It also argues that making a city legible need not mean making it surveilled. A municipal geodatabase can be designed to make citizens more visible to planners and service providers while protecting privacy, respecting language and local knowledge, and strengthening public accountability. The article contributes a context-sensitive implementation model for Bangladeshi city corporations, an empirical account of municipal data practice, and a humanistic account of spatial data infrastructure as public infrastructure.
 
 **Keywords:** municipal GIS; spatial data infrastructure; geodatabase; data governance; urban planning; local government; Bangladesh; Rajshahi City Corporation
 
@@ -46,7 +46,9 @@ This article addresses that gap. It asks:
 
 The article makes four contributions. First, it proposes a context-sensitive municipal data model with a common asset registry, address gazetteer, and thematic layers. Second, it describes a paper-to-digital workflow that records provenance and accuracy rather than pretending the starting data are better than they are. Third, it connects the technical artifact to a governance and implementation model. Fourth, it offers a humanistic argument: the geodatabase is public infrastructure, and its design must be judged by who it serves, who it exposes, and who it leaves out.
 
-The article proceeds in seven parts. Section 2 reviews the literature. Section 3 sets out the conceptual framework. Section 4 describes the methodology. Section 5 introduces the RCC context. Section 6 presents the proposed system. Section 7 discusses planning, economic, governance, and humanistic implications. Section 8 concludes.
+For *Transactions in GIS*, the GIScience contribution is threefold: a municipal data model that treats address, parcel, building, and asset identifiers as interoperable keys; a provenance and validation model for paper-derived spatial data; and a governance model for selective publication. The planning and policy discussion explains why these technical choices matter in a resource-constrained city corporation.
+
+The article proceeds in eight parts. Section 2 reviews the literature. Section 3 sets out the conceptual framework. Section 4 describes the methodology. Section 5 introduces the RCC context and interview sample. Section 6 presents the empirical findings. Section 7 presents the proposed system. Section 8 discusses planning, economic, governance, and humanistic implications. Section 9 concludes.
 
 ---
 
@@ -197,19 +199,23 @@ AND ("local government" OR municipality OR "public sector")
 
 ### 4.3 Case study
 
-RCC is the embedded case. Data collection for the empirical phase:
+RCC is the embedded case. Data collection combined documents, interviews, observation, the technical artifact, and expert review.
 
-- **Documents:** ward maps, holding-tax registers, engineering drawings, annual budgets, organograms, service records, project documents.
-- **Interviews:** 12–15 key informants across ICT, engineering, revenue, conservancy, town planning, ward offices, partner agencies, and public users. Semi-structured, 45–60 minutes, anonymised. The protocol and response templates are provided in the supplementary interview package.
-- **Observation:** how paper maps and Excel files are used in daily work; where data are duplicated; where handovers fail.
+- **Documents:** ward maps, holding-tax registers, engineering drawings, annual budgets, organograms, service records, project documents. Access was partial; public and redacted documents were used where necessary.
+- **Interviews:** 11 semi-structured interviews conducted between 16 and 24 November 2026. Participants included two RCC planners, two local councillors, one health-services officer, two field staff, one partner-agency representative, one academic, one local resident, and one cleaning-department officer. Interviews lasted 45–60 minutes, were conducted in Bangla and English, and were anonymised. All participants gave permission for anonymised quotation. The sample is summarised in Table 1.
+- **Observation:** how paper maps, registers, and Excel files are used in daily work; where data are duplicated; where handovers fail.
 - **Technical artifact:** the geodatabase schema, data dictionary, validation rules, and prototype workflows.
 - **Expert review:** a small panel of GIS professionals, urban planners, and municipal practitioners.
 
+The sample does not include revenue/holding-tax staff, engineering staff responsible for roads and drains, an ICT/GIS focal point, or Rajshahi WASA. This is a significant limitation for claims about those functions.
+
 ### 4.4 Analysis
 
-- Thematic analysis of interviews and documents.
+- Thematic analysis of interviews and documents, using a hybrid deductive–inductive coding frame (Braun & Clarke, 2006).
 - Comparative case matrix from the literature.
 - Design-science evaluation against technical validity, organisational fit, economic value, public value, and sustainability.
+
+The 11 interviews produced 440 question–response rows. Four were blank, and 77 were blank or “NA”; many “NA” responses were role-appropriate. The analysis therefore focuses on the 363 substantive responses and treats role-specific gaps as findings rather than as missing data. Two planner accounts (P01, P02) and two councillor accounts (P03, P05) were closely similar; they are treated as paired perspectives rather than as fully independent interviews. The resident account (P10) was thin and partly off-topic and is used only as a public-perspective illustration.
 
 ### 4.5 Ethics
 
@@ -221,7 +227,7 @@ RCC is the embedded case. Data collection for the empirical phase:
 
 ### 4.6 Scope of this article
 
-This article reports the design phase. It proposes the artifact and evaluates its internal consistency, feasibility, and public-value logic. It does not claim that the system has been fully implemented or that interviews have been completed. `[empirical phase]` markers indicate where subsequent RCC evidence should be integrated.
+This article reports 11 completed interviews and a proof-of-concept geodatabase. It does not claim a city-wide implementation or a representative survey. The findings are strongest on organisational practice, address problems, governance expectations, public access, and implementation sequencing. They are weaker on revenue workflows, drainage engineering, technical architecture, and water/sewer data sharing because the relevant departments were not represented. The article qualifies its claims accordingly.
 
 ---
 
@@ -246,13 +252,137 @@ The wider policy context is favourable. Smart Bangladesh Vision 2041 emphasises 
 
 The institutional ecology is more complicated. Water and sewerage may involve Rajshahi WASA; roads may involve LGED and RHD; land records involve the Survey of Bangladesh and the revenue administration; population and socio-economic data involve BBS. RCC cannot build a municipal geodatabase in isolation. It must decide what it owns, what it shares, and what it references from other agencies.
 
+### 5.1 Interview sample
+
+Table 1 summarises the 11 interviews. The sample is purposive, not statistically representative. It includes the planning and councillor interface with citizens, field operations, health services, a partner agency, an academic, a resident, and the cleaning department. It does not include revenue, engineering, ICT/GIS, or WASA respondents.
+
+**Table 1. Interview sample**
+
+| Code | Role category | Interview date | Substantive responses |
+|---|---|---|---|
+| P01 | RCC planner | 18 Nov 2026 | 39/40 |
+| P02 | RCC planner | 17 Nov 2026 | 40/40 |
+| P03 | Local councillor | 16 Nov 2026 | 40/40 |
+| P04 | Health services | 17 Nov 2026 | 30/40 |
+| P05 | Local councillor | 18 Nov 2026 | 40/40 |
+| P06 | Field staff | 17 Nov 2026 | 26/40 |
+| P07 | Field staff | 17 Nov 2026 | 30/40 |
+| P08 | Partner agency | 17 Nov 2026 | 22/40 |
+| P09 | Academic | 17 Nov 2026 | 39/40 |
+| P10 | Local resident | 17 Nov 2026 | 22/40 |
+| P11 | Cleaning department | 24 Nov 2026 | 35/40 |
+
+Two planner accounts (P01, P02) and two councillor accounts (P03, P05) were closely similar. They are treated as paired perspectives rather than as independent interviews. The resident account (P10) was thin and partly off-topic; it is used only as a public-perspective illustration.
+
 ![Figure 1: Current paper/Excel workflow versus proposed digital workflow](FIGURE_SPECS.md#figure-2--current-and-proposed-workflows)
 
 ---
 
-## 6. The proposed system
+## 6. Empirical findings
 
-### 6.1 Design principles
+### 6.1 Paper, Excel, and the absence of a spatial system
+
+The interviews confirm that RCC’s information environment is predominantly paper-based, supplemented by Excel and Word. Planners described maps and designs used “in a traditional way” and said there was no GIS-based system to support their work. Councillors described paper applications, registers, and files, with office computers used mainly for online birth registration. Field staff described paper instructions and paper returns.
+
+> “There is no digital way to cooperate with each other. We follow the traditional way.” — P01, RCC planner
+
+> “Records are kept in hard-copy format and, at times, in Excel files.” — P02, RCC planner
+
+> “Most information is kept in hard-copy forms, registers, and files. Some records may be kept in Excel.” — P03, local councillor
+
+This is more than a technology gap. It shapes how work is coordinated, how progress is tracked, and how citizens experience services. The absence of a shared system means that each department’s records are legible within that department but not across the corporation.
+
+### 6.2 Departmental silos and file-based coordination
+
+Departments keep their own records and update them separately. Coordination happens through files, telephone calls, and direct contact. There is no shared case-tracking or spatial platform.
+
+> “Each department manages its own data. There is no centralized system for departments to collaborate and develop a shared database.” — P02, RCC planner
+
+> “We share information through hard-copy files and direct contact with other departments.” — P03, local councillor
+
+> “RDA and RCC do share planning information when needed. This supports individual requests, but the process is not automated and there is no common database or platform.” — P08, partner agency
+
+The partner-agency account adds an inter-organisational dimension: RCC sometimes obtains planning data from RDA, but the exchange is case-by-case and not supported by a shared catalogue, standards, or update protocol. This is precisely the gap that a municipal spatial data infrastructure is meant to close.
+
+### 6.3 The address gap
+
+Addresses are recorded manually and inconsistently. Staff use National ID cards to verify identity, but identity verification is not a location index. Incomplete or inconsistent addresses make it difficult to find residents, route services, or link records.
+
+> “We have no digital way to locate clients; we verify their identity using their National ID.” — P02, RCC planner
+
+> “Addresses are recorded manually in applications and other paper records. An address is easier to use when it clearly identifies the resident’s location. It can be difficult to find a place when address details are incomplete or inconsistent, especially without a shared address or mapping system.” — P03, local councillor
+
+> “RCC should adopt a standard address structure, including administrative area, locality, road or landmark, building or holding reference where available, and a unique address identifier.” — P09, academic
+
+When asked what single layer they would prioritise, both planners said “addresses.” The councillors and academic also prioritised an accurate address and location layer. This is the strongest design signal in the dataset: the address is not a secondary attribute; it is the foundational infrastructure.
+
+### 6.4 The cadastral–holding tax disconnect
+
+Participants who could speak to the issue were clear that RCC does not have a cadastral database and cannot reliably link holding or tax records to buildings or parcels.
+
+> “RCC does not have a cadastral database, so we cannot reliably link a holding or tax record to a building or parcel using a shared spatial record.” — P03, local councillor
+
+> “We cannot reliably connect a holding or tax record to a building or parcel because RCC does not have a cadastral database.” — P05, local councillor
+
+> “RCC cannot reliably link holding-tax records to buildings or parcels without cadastral data. The recommended approach is to establish authoritative parcel and building identifiers, then link records through those identifiers and documented relationships.” — P09, academic
+
+This finding must be read carefully. The sample did not include revenue staff, so it describes the planners’ and councillors’ view, not the internal practice of the holding-tax office. It is nonetheless significant: the people who deal with applications and local requests do not have a reliable spatial key to property. It supports the separation of `holding_no`, `parcel_id`, `building_id`, and `address_id` in the schema, with explicit link tables rather than a single assumed match.
+
+### 6.5 Assets without registers
+
+Drains, bins, streetlights, parks, and facilities are handled by departments, but participants did not identify a shared spatial asset register. As-built drawings and contractor data are filed in project files or the records room, not linked to a mapped asset.
+
+> “RCC does not have a shared spatial asset register for features such as drains, manholes, bins, streetlights, parks, and public facilities. Information about these assets is handled manually by the relevant departments.” — P05, local councillor
+
+> “There is no automatic process for updating a central map or database.” — P05, local councillor
+
+> “Final project documents are kept in files and stored in the records room. We do not have a central system that links as-built drawings or contractor information to a mapped project record.” — P03, local councillor
+
+This is a core requirement for the asset registry and as-built handover workflow. It also explains why maintenance remains reactive: if the asset is not in a register, it cannot be planned, prioritised, or costed.
+
+### 6.6 Governance, privacy, and public information
+
+The strongest normative theme in the interviews was governance. Participants repeatedly proposed a Spatial Services Unit, departmental data custodians, a data governance policy, role-based access, and approval before publication.
+
+> “There should be a Spatial Services Unit at RCC, who can develop and manage spatial database.” — P01, RCC planner
+
+> “RCC should establish a Spatial Services Unit to manage the city-wide spatial database. Departments should maintain and update the information related to their work, with the Spatial Services Unit coordinating standards and the IT section supporting the technology.” — P03, local councillor
+
+> “RCC should lead the database for its municipal operational data, while RDA should remain custodian of its planning datasets. The agencies should agree on a shared catalogue, data standards, access rules, and update responsibilities.” — P08, partner agency
+
+Participants also drew a clear line between public and restricted data.
+
+> “General information about services, roads, public facilities, and service locations could be made public after it is checked. Personal, tax, identity, and complaint information should remain internal or restricted.” — P03, local councillor
+
+> “Sensitive client data should be restricted to internal use. Access should also be limited among internal users according to their roles.” — P02, RCC planner
+
+> “Each agency should share only the personal information necessary for an agreed purpose. Personal identifiers and sensitive records should be access-controlled, logged, and excluded from public maps.” — P08, partner agency
+
+This is a significant finding for the humanistic argument. Participants did not ask for a purely open map. They asked for a **governed** map: accurate, selective, and accountable. That is consistent with the proposed publication gate and `pub` views.
+
+### 6.7 Implementation priorities, risks, and success measures
+
+Participants prioritised governance, a central database, an address layer, training, workflow integration, and a public website. The sequencing was remarkably consistent.
+
+> “First, establish data governance, assign clear responsibilities, and identify the data RCC needs. Second, create a central database and GIS system, starting with accurate addresses and cadastral information. Third, train staff and connect the system to service workflows and the RCC website.” — P03, local councillor
+
+> “Database, GIS-based system, and finally an automated version. The GIS-based system should be linked to the website like an IntraMap services.” — P01, RCC planner
+
+> “First, inventory each agency’s datasets and agree on custodianship, sharing rights, standards, and privacy rules. Second, prepare priority data with common formats, identifiers, metadata, and quality checks. Third, establish a secure shared catalogue or platform, pilot data updates between the agencies, and publish only approved open datasets.” — P08, partner agency
+
+Risks were equally clear: inaccurate data, no maintenance, unclear responsibilities, no training, weak privacy, no funding or support, political influence, and limited public awareness.
+
+> “The system could fail if data is not maintained, departments do not take responsibility, staff are not trained, privacy safeguards are weak, or ongoing funding and technical support are missing.” — P09, academic
+
+> “The main difficulty may be getting staff across departments to use and maintain the shared system consistently.” — P05, local councillor
+
+Success was framed in operational terms: data accuracy and update frequency, departmental use, service coordination, resident feedback, training, and request turnaround. Participants did not ask for a sophisticated dashboard. They asked for a system that staff would actually use and maintain.
+
+---
+
+## 7. The proposed system
+
+### 7.1 Design principles
 
 1. **Address first.** The address is the common key for property, tax, waste, water, drainage, and citizen requests.
 2. **One system of record.** Excel and paper become sources, not masters.
@@ -263,7 +393,29 @@ The institutional ecology is more complicated. Water and sewerage may involve Ra
 7. **Selective publication.** Internal data first; public layers only when ready.
 8. **Human-centred.** Bangla/English labels, low-bandwidth design, privacy, and accessibility.
 
-### 6.2 Architecture
+### 7.2 Design implications from the findings
+
+The interview findings did not merely provide context; they shaped the artifact. Table 2 summarises the main design responses.
+
+**Table 2. From interview findings to design responses**
+
+| Finding | Design response |
+|---|---|
+| Paper/Excel baseline | Staging schema, import templates, provenance fields, migration workflow |
+| Departmental silos | Shared identifiers, asset registry, departmental custodians, cross-department governance |
+| Address gap | Address gazetteer, address ranges, stable `address_id`, bilingual search |
+| Cadastral–holding disconnect | Separate `holding_no`, `parcel_id`, `building_id`, and `address_id`; explicit link tables; no assumed one-to-one match |
+| Assets without registers | `asset_registry`, `asset_no`, condition and criticality fields, as-built handover |
+| Paper field capture | QField/mobile forms, offline capture, photos, GPS accuracy, field validation |
+| Capacity and training | QGIS forms, constrained domains, default values, SOPs, training, champions |
+| Governance demand | Spatial Services Unit, RACI, data policy, data stewards, change control |
+| Privacy and publication | Access classification, role-based access, `pub` views, publication gate, audit |
+| Trust and provenance | Source, date, accuracy, QA status, metadata, data date, correction channel |
+| Language and access | Bangla/English interface, plain language, low bandwidth, mobile, print |
+| Partner data sharing | Data-sharing agreements, common catalogue, standards, custodial boundaries |
+| Implementation sequencing | Phased roadmap with decision gates and maintenance funding |
+
+### 7.3 Architecture
 
 The proposed architecture is deliberately modest:
 
@@ -291,7 +443,7 @@ Paper maps / Excel / CAD / field observation
 
 The stack is replaceable. The data model, standards, and governance are not. This is a socio-technical architecture, not a software brand.
 
-### 6.3 Data model
+### 7.4 Data model
 
 The geodatabase contains 13 thematic datasets:
 
@@ -309,7 +461,9 @@ The geodatabase contains 13 thematic datasets:
 - `OPS` — inspections, work orders, service requests.
 - `CIVIC` — points of interest and events.
 
-The full schema contains 65 feature classes, 9 tables, 67 domains, and 27 relationship classes. The article does not reproduce the full dictionary. It shows the design logic and a representative excerpt (Table 4).
+The full schema contains 65 feature classes, 9 tables, 67 domains, and 27 relationship classes. The article does not reproduce the full dictionary. It shows the design logic and a representative excerpt in Appendix B.
+
+The schema was validated with an automated check for duplicate field names, missing keys, missing domains, domain–type mismatches, text fields without lengths, and broken relationship keys. The current build passes these checks. Geometry validity, topology, and attribute completeness must be tested on populated data; this is a task for the pilot, not a claim about the empty schema.
 
 A common asset block includes:
 
@@ -326,7 +480,7 @@ capture_method_code, qa_status_code,
 created_at, created_by, updated_at, updated_by, notes
 ```
 
-### 6.4 Address gazetteer
+### 7.5 Address gazetteer
 
 The address gazetteer is the most important early deliverable. It combines:
 
@@ -340,13 +494,13 @@ It should support both “house–road–block–section” and “mahalla–hol
 
 The literature supports this emphasis. Goodchild and Hill (2008) show that gazetteers are foundational for search and interoperability. Yıldırım et al. (2014) show that street addressing and geocoding are difficult where naming and numbering are inconsistent. Australia’s G-NAF is a national asset that RCC does not have; RCC must build the equivalent locally.
 
-### 6.5 Asset registry
+### 7.6 Asset registry
 
 A separate `asset_registry` table indexes every asset across themes. It allows inspections, work orders, and service requests to attach to any asset without schema changes. In a file geodatabase, the registry must be populated by the editing workflow. In PostGIS, it can be maintained by a trigger or scheduled job.
 
 The registry is a pragmatic alternative to a full utility-network model. It does not replace network topology for water and sewer, but it provides a common operational index for a small GIS team.
 
-### 6.6 Automation
+### 7.7 Automation
 
 The automation model has five stages:
 
@@ -358,7 +512,7 @@ The automation model has five stages:
 
 Automation is not only technical. It includes address matching and geocoding; asset-registry updates; duplicate detection; metadata generation; scheduled backups; audit logs; and publication approval.
 
-### 6.7 Governance
+### 7.8 Governance
 
 The governance framework has five layers:
 
@@ -368,9 +522,9 @@ The governance framework has five layers:
 4. **Processes** — data request, change request, QA, publication, incident response.
 5. **Evaluation** — maturity, completeness, timeliness, use, trust.
 
-A RACI matrix clarifies who is responsible, accountable, consulted, and informed for each data domain (Table 5).
+A RACI matrix clarifies who is responsible, accountable, consulted, and informed for each data domain (Appendix D).
 
-### 6.8 Implementation roadmap
+### 7.9 Implementation roadmap
 
 | Phase | Time | Focus | Exit test |
 |---|---|---|---|
@@ -385,9 +539,9 @@ The sequencing is deliberate: governance before data; data before public map; pi
 
 ---
 
-## 7. Discussion
+## 8. Discussion
 
-### 7.1 Planning significance
+### 8.1 Planning significance
 
 A maintained geodatabase changes the quality of planning conversation. It allows RCC to ask:
 
@@ -400,15 +554,17 @@ A maintained geodatabase changes the quality of planning conversation. It allows
 
 These are not abstract questions. They are the daily substance of urban planning. The geodatabase makes them answerable with evidence rather than anecdote.
 
+The interviews support this planning value. Planners described maps and designs used “in a traditional way” and said there was no GIS-based system to support project planning. Councillors described service requests that arrive as paper applications and are tracked through files and personal contact. The geodatabase would not invent new planning questions; it would make existing questions answerable at the ward and city scale.
+
 The literature supports this planning value (Budić, 1994; Rahman et al., 2022; Tanvir & Haque, 2023). But it also warns that GIS does not automatically change decisions (Campbell, 1994). The system must be embedded in planning routines, budget cycles, and ward meetings.
 
-### 7.2 Economic significance
+### 8.2 Economic significance
 
 The economic case rests on four channels.
 
-**Property tax coverage.** An address and parcel geodatabase can identify properties that are missing from the tax register, improve valuation, and reduce leakage (Norregaard, 2013; Singh et al., 2022). Even a modest improvement in coverage can generate significant revenue for a city corporation with limited fiscal space (Tanny, 2022).
+**Property tax coverage.** An address and parcel geodatabase can identify properties that are missing from the tax register, improve valuation, and reduce leakage (Norregaard, 2013; Singh et al., 2022). Even a modest improvement in coverage can generate significant revenue for a city corporation with limited fiscal space (Tanny, 2022). The interviews could not verify the internal practice of the holding-tax office because revenue staff were not represented. They did show, however, that planners and councillors cannot reliably link a holding or tax record to a building or parcel. That is a credible signal of the scale of the problem, even if the precise revenue effect remains to be measured.
 
-**Asset management.** A condition-rated asset register supports maintenance prioritisation, lifecycle costing, and capital planning (Kaganova & Telgarsky, 2018; ISO 55000; IIMM). It helps RCC avoid premature replacement and repeated emergency repairs.
+**Asset management.** A condition-rated asset register supports maintenance prioritisation, lifecycle costing, and capital planning (Kaganova & Telgarsky, 2018; ISO 55000; IIMM). It helps RCC avoid premature replacement and repeated emergency repairs. The interviews showed that as-built drawings are filed but not linked to a mapped asset record. The economic loss is not only the cost of repair; it is the cost of not knowing what exists, where it is, and what condition it is in.
 
 **Operational efficiency.** A shared address and asset index reduces duplicate data collection, time spent searching for records, and repeated site visits. The literature on municipal GIS consistently reports efficiency gains (Ventura, 1995; Venigalla & Baik, 2007).
 
@@ -416,9 +572,11 @@ The economic case rests on four channels.
 
 The economic argument should be made carefully. A geodatabase is not a revenue guarantee. It is an enabling infrastructure whose value depends on how it is used.
 
-### 7.3 Governance and public value
+### 8.3 Governance and public value
 
 The governance framework is the condition for sustainability. Data without a steward becomes stale. A public map without a publication gate becomes a privacy risk. A system without a maintenance budget becomes a ruin.
+
+The interviews made this concrete. Participants repeatedly proposed a Spatial Services Unit, departmental data custodians, a data governance policy, role-based access, and approval before publication. They did not ask for a purely open map. They asked for a governed map: accurate, selective, and accountable. This is a significant finding because it shows that the governance model is not an external imposition; it is grounded in local expectations.
 
 The public-value argument is equally important. A geodatabase can make the city more legible to the administration, but legibility is not automatically good (Scott, 1998). It can make informal settlements more visible for upgrading, or more visible for eviction. It can improve service delivery, or it can become a tool of surveillance. The difference is governance.
 
@@ -432,31 +590,35 @@ Dencik et al. (2019) and Kitchin (2014) remind us that data systems distribute b
 
 These questions should be built into the design, not added as an ethics afterthought.
 
-### 7.4 Humanistic considerations
+### 8.4 Humanistic considerations
 
 The article’s humanistic argument is simple: a geodatabase is made of people as much as polygons.
 
 Field officers, ward staff, and department clerks are the ones who know where the drains are, which addresses are wrong, and which buildings are missing. Lipsky (1980) shows that street-level bureaucrats shape policy through discretion and daily practice. If the system ignores their knowledge, it will fail. If it captures and respects their knowledge, it can succeed.
 
+The interviews reinforced this point. Field staff said they had never used a digital field system and would need practical training and support. Councillors warned that staff would resist if the system added work without clear benefits. One cleaning-department respondent noted that “people may not be sufficiently aware of or familiar with maps.” These are not arguments against the system; they are design requirements. The interface must be simple, bilingual, and aligned with existing routines, and the system must show staff that their updates are reviewed and used.
+
 The system should also respect language. Bangla labels, Bangla search, and Bangla training materials are not optional. A public map that only works in English is not a public map.
 
 Finally, the system should be modest. It should not promise to solve urban governance. It should help RCC see the city a little more clearly, act a little more consistently, and explain itself a little more openly.
 
-### 7.5 Limitations
+### 8.5 Limitations
 
 This article has several limitations.
 
-First, it is a design proposal, not a completed implementation. The artifact has been specified and technically validated, but it has not been evaluated in routine RCC use.
+First, the empirical sample is purposive and small. It includes 11 participants: two planners, two councillors, one health-services officer, two field staff, one partner-agency representative, one academic, one resident, and one cleaning-department officer. It does not include revenue/holding-tax staff, engineering staff responsible for roads and drains, an ICT/GIS focal point, or Rajshahi WASA. Claims about those functions are therefore qualified.
 
-Second, the empirical evidence from RCC interviews and operational data is not yet integrated. `[empirical phase]`
+Second, two planner accounts and two councillor accounts were closely similar. They are treated as paired perspectives rather than as independent interviews. The resident account was thin and partly off-topic and is used only as a public-perspective illustration.
 
-Third, the schema is intentionally broad. It may be simplified or extended after pilot use.
+Third, the article reports a proof-of-concept geodatabase, not a city-wide implementation. The schema has been specified and technically validated, but it has not been evaluated in routine RCC use.
 
-Fourth, the economic estimates are indicative. They require RCC budget and tax data.
+Fourth, the economic estimates are indicative. They require RCC budget, tax, and maintenance data, including validation with revenue staff.
 
 Fifth, the article does not resolve the legal and privacy questions around public release. These require RCC legal review and public consultation.
 
-### 7.6 Research agenda
+Sixth, the schema is intentionally broad. It may be simplified or extended after pilot use. The findings should be triangulated with documents, field observation, and the missing departmental interviews before they are treated as a full institutional diagnosis.
+
+### 8.6 Research agenda
 
 Future research should:
 
@@ -471,9 +633,11 @@ Future research should:
 
 ---
 
-## 8. Conclusion
+## 9. Conclusion
 
 This article began with a simple observation: RCC already knows a great deal about its city, but that knowledge is scattered across paper, Excel, and memory. The proposed geodatabase is an attempt to make that knowledge shared, maintainable, and useful.
+
+The interviews confirmed this diagnosis. Planners and councillors described paper applications, files, and personal contact. Field staff described paper instructions and paper returns. Participants could not identify a shared spatial asset register, and the planners and councillors who spoke to the issue could not reliably link a holding or tax record to a building or parcel. At the same time, participants consistently asked for a Spatial Services Unit, departmental custodians, a data governance policy, role-based access, and selective publication. The demand for governance came from inside the corporation, not only from the research design.
 
 The article argued that the binding constraint is not software. QGIS, PostGIS, and open web services are mature and affordable. The binding constraints are data quality, stewardship, capacity, and institutional coordination.
 
@@ -481,7 +645,20 @@ It also argued that making the city legible need not mean making it surveilled. 
 
 The contribution is a context-sensitive model: an address-centred data model, a common asset registry, a staged automation pipeline, a governance framework, and a phased roadmap. The model is not a universal template. It is a starting point for RCC and for other Bangladeshi city corporations that face similar conditions.
 
-The next step is implementation in a pilot ward. The city does not need a perfect map. It needs a map that can be trusted, corrected, and maintained.
+The next step is implementation in a pilot ward, followed by targeted interviews with revenue, engineering, ICT/GIS, and WASA. The city does not need a perfect map. It needs a map that can be trusted, corrected, and maintained.
+
+---
+
+## Data and code availability
+
+The geodatabase schema, data dictionary, and build scripts are available at:
+
+```text
+https://github.com/mprgesru/RCC_GeoDB
+https://github.com/mmprana/RCC_GeoDB
+```
+
+A versioned archive should be deposited in Zenodo before submission. The RCC operational data are not publicly available because they contain personal, tax, and complaint information. The interview data are not publicly available because of confidentiality commitments. Anonymised excerpts are included in the article.
 
 ---
 

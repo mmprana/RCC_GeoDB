@@ -1,5 +1,7 @@
 # Interview Package
 
+**Status:** 11 interviews completed between 16 and 24 November 2026. See `FINDINGS_MEMO.md` for the anonymised findings and `CODING_SUMMARY.csv` for the theme summary.
+
 This folder contains the interview protocol, consent materials, response templates, and coding frame for the RCC geodatabase study.
 
 ## Files
@@ -15,6 +17,8 @@ This folder contains the interview protocol, consent materials, response templat
 | `CODING_FRAME.md` | Deductive and inductive codes, theme template, evidence log, saturation |
 | `DOCUMENT_REQUEST_LIST.md` | Blank/redacted documents to request |
 | `THEME_EVIDENCE.csv` | Evidence log by theme |
+| `CODING_SUMMARY.csv` | 18-theme summary with participant codes, RQ mapping, and design implications |
+| `FINDINGS_MEMO.md` | Anonymised empirical findings, quotes, limitations, and implications |
 | `INTERVIEW_LOG.csv` | Log of interviews, consent, recording, and status |
 
 ---

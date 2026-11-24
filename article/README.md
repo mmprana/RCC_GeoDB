@@ -27,14 +27,16 @@ Target: *Transactions in GIS* (primary); *Cities*; *Habitat International*; *Int
 | `ERD.md` | Relational design, cardinalities, key decisions |
 | `GOVERNANCE_FRAMEWORK.md` | Principles, roles, RACI, policies, processes, maturity, financing, KPIs |
 | `IMPLEMENTATION_ROADMAP.md` | Phases, decision gates, risks, costs, KPIs |
-| `MANUSCRIPT_DRAFT.md` | Working full draft (~6,900 words) |
+| `MANUSCRIPT_DRAFT.md` | Working full draft (~9,800 words) |
 | `interviews/` | Interview guide, question bank, consent script, response templates, coding frame |
+| `interviews/FINDINGS_MEMO.md` | Anonymised empirical findings, quotes, limitations, and implications |
+| `interviews/CODING_SUMMARY.csv` | 18-theme coding summary with participant codes and RQ mapping |
 
 ---
 
 ## Status
 
-This is a **design-phase draft**, not a submission-ready manuscript.
+This is an **empirical working draft**, not a submission-ready manuscript.
 
 Completed:
 
@@ -46,18 +48,18 @@ Completed:
 - governance framework;
 - implementation roadmap;
 - figure specifications;
-- working manuscript draft;
-- interview guide and response templates;
+- working manuscript draft with 11 interviews integrated;
+- interview guide, response templates, findings memo, and coding summary;
 - journal-fit note for *Transactions in GIS*.
 
 Still needed:
 
-1. RCC document review: ward maps, holding-tax register, engineering drawings, budgets, organograms.
-2. 8–12 key-informant interviews and thematic analysis.
+1. Targeted interviews with revenue/holding tax, engineering (roads/drains), ICT/GIS, and WASA.
+2. RCC document review: ward maps, holding-tax register, engineering drawings, budgets, organograms.
 3. Expert review of the schema and governance framework.
 4. RCC budget and revenue figures, verified.
 5. Final figures drawn in a journal-compatible format.
-6. Language editing for length and voice.
+6. Trim to the journal’s word limit.
 7. Journal-specific formatting and cover letter.
 
 ---
