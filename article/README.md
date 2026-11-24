@@ -27,7 +27,10 @@ Target: *Transactions in GIS* (primary); *Cities*; *Habitat International*; *Int
 | `ERD.md` | Relational design, cardinalities, key decisions |
 | `GOVERNANCE_FRAMEWORK.md` | Principles, roles, RACI, policies, processes, maturity, financing, KPIs |
 | `IMPLEMENTATION_ROADMAP.md` | Phases, decision gates, risks, costs, KPIs |
-| `MANUSCRIPT_DRAFT.md` | Working full draft (~9,800 words) |
+| `MANUSCRIPT_DRAFT.md` | Working full draft (~8,900 words) |
+| `RCC_GeoDB_Manuscript_TIG.docx` | Wiley-formatted manuscript for *Transactions in GIS* |
+| `build_docx.py` | Builds the Word manuscript from the Markdown source |
+| `DOCX_COMPLIANCE_CHECK.md` | Requirement-by-requirement check against the journal guidelines |
 | `interviews/` | Interview guide, question bank, consent script, response templates, coding frame |
 | `interviews/FINDINGS_MEMO.md` | Anonymised empirical findings, quotes, limitations, and implications |
 | `interviews/CODING_SUMMARY.csv` | 18-theme coding summary with participant codes and RQ mapping |
